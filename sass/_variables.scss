@@ -1,0 +1,44 @@
+// Typography
+$font-family-sans-serif: "Manrope", Helvetica, arial, sans-serif;
+
+// Colors
+$primary: #0000ff;
+
+//Bootstrap Colors
+$yellow: #ffd10f;
+$orange: #f79226;
+$red: #ef404d;
+$purple: #a14a9c;
+$blue: #55a4db;
+$green: #7fc347;
+
+$light: #fff;
+$dark: #000;
+$gray: #707070;
+$gray-light: #E8E8E8;
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+$colorinfinito: #3C3C3B;
+
+$body-bg: $light;
+$body-color: $dark;
+
+//border-radius
+$border-radius: 0.75rem;
+$border-radius-lg: 1.5rem;
+$border-radius-xl: 5rem;
+
+// Navbar
+$navbar-height: 4rem;
+$navbar-inverse-link-color: $dark;
+$navbar-inverse-link-hover-color: $primary;
+
+// Art and slides
+$art-height: 65vh;
+$art-height-md: calc(100vh - 4.25rem - 4rem - var(--title-height));
+
+// Boostrap variables and functions
+@import "bootstrap/scss/_functions";
+@import "bootstrap/scss/_variables";
+@import "bootstrap/scss/_mixins";

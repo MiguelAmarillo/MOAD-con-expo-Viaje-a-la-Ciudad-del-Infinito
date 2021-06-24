@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="expo-wrapper">
+    <div class="expo-wrapper" :style="slideinfinito === 'viajeinfinito' ? 'background:#3C3C3B' : ''">
       <nuxt-child />
     </div>
     <expo-nav v-if="!showMap && !showModal" :expo="currentExpo" />
@@ -37,6 +37,10 @@ export default {
   computed: {
     currentSlide () {
       return this.$store.state.currentSlide
+    },
+    slideinfinito () {
+      console.log(this.$store.state)
+      return this.$store.state.currentExpoId
     },
     showMap () {
       return this.$store.state.showMap

@@ -1,5 +1,10 @@
 <template>
-  <b-navbar toggleable="md" type="light" fixed="top">
+  <b-navbar
+    toggleable="md"
+    type="light"
+    fixed="top"
+    :style="slideinfinito === 'viajeinfinito' ? 'background:#3C3C3B' : ''"
+  >
     <b-navbar-brand to="/" @mousedown.prevent>
       <logo version="symbol" subtitled />
     </b-navbar-brand>
@@ -56,6 +61,10 @@ export default {
     Logo
   },
   computed: {
+    slideinfinito () {
+      console.log(this.$store.state)
+      return this.$store.state.currentExpoId
+    },
     showModal () {
       return this.$store.state.showModal
     },
@@ -73,8 +82,11 @@ export default {
 </script>
 
 <style lang="scss">
-  @import '../sass/variables';
+  @import '../sass/_variables';
 
+  .viajeinfinito {
+    color: $colorinfinito;
+  }
   .navbar-light {
     background: $light;
 

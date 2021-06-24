@@ -1,5 +1,5 @@
 <template>
-  <div class="expo-nav">
+  <div class="expo-nav" :style="slideinfinito === 'viajeinfinito' ? 'background:#3C3C3B' : ''">
     <nuxt-link id="progress-bar" class="expo-nav-progress button-def" :style="progressBarLength" to="map" @mousedown.prevent />
     <b-tooltip target="progress-bar" triggers="hover focus" offset="10000px" custom-class="tooltip-moad">
       Obrir Mapa
@@ -31,6 +31,10 @@ export default {
   computed: {
     currentSlide () {
       return this.$store.state.currentSlide
+    },
+    slideinfinito () {
+      console.log(this.$store.state)
+      return this.$store.state.currentExpoId
     },
     progressBarLength () {
       return 'width:' + ((this.currentSlide.number) / this.expoLength) * 100 + '%'

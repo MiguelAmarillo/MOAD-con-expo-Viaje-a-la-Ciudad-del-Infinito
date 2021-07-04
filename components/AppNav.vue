@@ -3,7 +3,6 @@
     toggleable="md"
     type="light"
     fixed="top"
-    :style="slideinfinito === 'viajeinfinito' ? 'background:#3C3C3B' : ''"
   >
     <b-navbar-brand to="/" @mousedown.prevent>
       <logo version="symbol" subtitled />
@@ -62,7 +61,6 @@ export default {
   },
   computed: {
     slideinfinito () {
-      console.log(this.$store.state)
       return this.$store.state.currentExpoId
     },
     showModal () {

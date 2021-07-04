@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="expo-wrapper" :style="slideinfinito === 'viajeinfinito' ? 'background:#3C3C3B' : ''">
+    <div class="expo-wrapper">
       <nuxt-child />
     </div>
     <expo-nav v-if="!showMap && !showModal" :expo="currentExpo" />
@@ -15,7 +15,16 @@ export default {
   components: {
     ExpoNav
   },
-
+  head () {
+    return {
+      link: [
+        {
+          rel: 'stylesheet',
+          href: `/${this.$store.state.styles}.css`
+        }
+      ]
+    }
+  },
   asyncData ({ store, params }) {
     if (params.id) {
       const currentExpo = expositions[expositions.findIndex(expo => expo.id === params.expo)].expo

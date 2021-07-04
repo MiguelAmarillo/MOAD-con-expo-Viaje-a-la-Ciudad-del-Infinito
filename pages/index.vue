@@ -27,7 +27,16 @@ export default {
     name: 'index',
     mode: 'out-in'
   },
-
+  head () {
+    return {
+      link: [
+        {
+          rel: 'stylesheet',
+          href: `/${this.$store.state.styles}.css`
+        }
+      ]
+    }
+  },
   data () {
     return {
       expositions

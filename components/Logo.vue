@@ -9,7 +9,7 @@
       viewBox="0 0 200 151.1"
       xml:space="preserve"
     >
-      <g class="vertical-logo" :style="slideinfinito === 'viajeinfinito' ? 'fill:white' : ''">
+      <g class="vertical-logo">
         <polygon
           class="st0"
           points="65.9,0 53.9,52.9 52.5,52.9 39.8,0 8,0 0.2,69.1 19.4,69.1 25.2,14.8 26.9,14.8 40.5,69.1 65.2,69.1 79,14.8 80.5,14.8 86.5,69.1 105.6,69.1 97.7,0 "
@@ -149,7 +149,6 @@
       width="659.5px"
       height="80.3px"
       viewBox="0 0 659.5 80.3"
-      :style="slideinfinito === 'viajeinfinito' ? 'fill:white' : ''"
     >
       <g>
         <polygon
@@ -322,7 +321,6 @@
       x="0px"
       y="0px"
       viewBox="0 0 371.1 80.3"
-      :style="slideinfinito === 'viajeinfinito' ? 'fill:white' : ''"
     >
       <g>
         <polygon

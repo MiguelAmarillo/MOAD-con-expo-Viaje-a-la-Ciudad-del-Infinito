@@ -1,6 +1,6 @@
 <template>
   <div :class="{'expo' : true, 'expo-unavailable' : !exposition.hasOwnProperty('expo')}">
-    <nuxt-link class="expo-link container" :to="'/expositions/'+exposition.id" :event="exposition.hasOwnProperty('url') ? 'click' : ''">
+    <nuxt-link class="expo-link container" :to="urlToRedirec" :event="exposition.hasOwnProperty('url') ? 'click' : ''">
       <img v-if="exposition.hasOwnProperty('img')" :srcset="exposition.img.srcSet" alt="Untitled 1">
       <div v-else class="no-img-placeholder" />
       <div class="expo-link-hall">
@@ -28,6 +28,11 @@ export default {
     number: {
       type: Number,
       default: 0
+    }
+  },
+  computed: {
+    urlToRedirec () {
+      return this.exposition.id === 'viajeinfinito' ? '/viajeinfinito' : '/expositions/' + this.exposition.id
     }
   }
 }

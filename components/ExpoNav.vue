@@ -1,5 +1,5 @@
 <template>
-  <div class="expo-nav" :style="slideinfinito === 'viajeinfinito' ? 'background:#3C3C3B' : ''">
+  <div class="expo-nav">
     <nuxt-link id="progress-bar" class="expo-nav-progress button-def" :style="progressBarLength" to="map" @mousedown.prevent />
     <b-tooltip target="progress-bar" triggers="hover focus" offset="10000px" custom-class="tooltip-moad">
       Obrir Mapa
@@ -26,6 +26,16 @@ export default {
     showControls: {
       type: Boolean,
       default: true
+    }
+  },
+  head () {
+    return {
+      link: [
+        {
+          rel: 'stylesheet',
+          href: `/${this.$store.state.styles}.css`
+        }
+      ]
     }
   },
   computed: {

@@ -10,7 +10,8 @@ export const state = () => ({
   currentExpoId: '',
   currentExpoName: '',
   currentArt: {},
-  expositions
+  expositions: undefined,
+  styles: 'defaultStyle'
 })
 
 export const mutations = {
@@ -25,6 +26,7 @@ export const mutations = {
   },
 
   resetExpo (state) {
+    state.styles = 'defaultStyle'
     state.showModal = false
     state.showMap = false
     state.currentSlide.number = 0
@@ -46,6 +48,9 @@ export const mutations = {
   },
 
   changeCurrentExpoId (state, newCurrentExpoId) {
+    if (newCurrentExpoId === 'viajeinfinito') {
+      state.styles = 'infinitosStyle'
+    }
     state.currentExpoId = newCurrentExpoId
   },
 
@@ -55,6 +60,10 @@ export const mutations = {
 
   changeCurrentArt (state, art) {
     state.currentArt = art
+  },
+
+  changeStyleToInfinito (state, infinitosStyle) {
+    state.styles = infinitosStyle
   }
 }
 

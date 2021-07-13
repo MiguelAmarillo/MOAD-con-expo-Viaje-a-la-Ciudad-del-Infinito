@@ -34,7 +34,7 @@
         <p v-if="slide.description" class="expo-slide-info-description">
           {{ slide.description }}
         </p>
-        <p class="expo-slide-info-description">
+        <p v-if="slide.technique" class="expo-slide-info-description">
           <span>Tècnica </span>{{ slide.technique }}
         </p>
         <p v-if="slide.artistnotes" class="expo-slide-info-description">

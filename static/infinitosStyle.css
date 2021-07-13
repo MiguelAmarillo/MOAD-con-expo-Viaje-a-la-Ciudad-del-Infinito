@@ -1,5 +1,6 @@
 body {
    background-color:  #3C3C3B;
+   color: white;
 }
 
 p {
@@ -17,3 +18,17 @@ svg {
 div.expo-nav {
   background-color: #3C3C3B !important;
 }
+
+.expo-slide-info {
+  background-color: #3C3C3B !important;
+}
+
+.nav-arrow {
+  color: white;
+}
+
+i {
+  color: white;
+}
+
+

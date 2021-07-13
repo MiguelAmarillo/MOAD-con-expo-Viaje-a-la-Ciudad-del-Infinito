@@ -2,11 +2,6 @@
   <div class="viajeinfinito">
     <div class="row justify-content-center">
       <div class="col-sm-12 col-md-4 withoutPaddings">
-        <nuxt-link class="expo-link container" to="/biografias">
-              <img src="~/assets/appImages/viajeInfinito/imgBiografias.jpeg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
-        </nuxt-link>
-      </div>
-      <div class="col-sm-12 col-md-4 withoutPaddings">
         <nuxt-link class="expo-link container" to="/expositions/viajeinfinito">
               <img src="~/assets/appImages/viajeInfinito/imgCronograma.jpeg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
         </nuxt-link>

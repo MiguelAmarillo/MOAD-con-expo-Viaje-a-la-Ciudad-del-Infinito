@@ -5,13 +5,13 @@
       Obrir Mapa
     </b-tooltip>
     <button v-if="showControls && prevSlideExists" class="expo-nav-prev button" @click.prevent="prevSlide()" @mousedown.prevent>
-      <span>←</span>
+      <span class="nav-arrow">←</span>
     </button>
     <nuxt-link v-if="showControls && currentSlide.number > 0" class="expo-nav-map d-lg-none d-xl-none button-def" to="map" @mousedown.prevent>
       Mapa
     </nuxt-link>
     <button v-if="showControls && nextSlideExists" class="expo-nav-next button" to="aerial-trams" @click.prevent="nextSlide()" @mousedown.prevent>
-      <span>→</span>
+      <span class="nav-arrow">→</span>
     </button>
   </div>
 </template>
@@ -21,7 +21,7 @@ export default {
   props: {
     expo: {
       type: Array,
-      default: null
+      default: () => []
     },
     showControls: {
       type: Boolean,

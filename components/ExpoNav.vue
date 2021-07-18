@@ -1,13 +1,13 @@
 <template>
   <div class="expo-nav">
     <nuxt-link id="progress-bar" class="expo-nav-progress button-def" :style="progressBarLength" to="map" @mousedown.prevent />
-    <b-tooltip target="progress-bar" triggers="hover focus" offset="10000px" custom-class="tooltip-moad">
+    <b-tooltip v-if="showMapCustom" target="progress-bar" triggers="hover focus" offset="10000px" custom-class="tooltip-moad">
       Obrir Mapa
     </b-tooltip>
     <button v-if="showControls && prevSlideExists" class="expo-nav-prev button" @click.prevent="prevSlide()" @mousedown.prevent>
       <span class="nav-arrow">←</span>
     </button>
-    <nuxt-link v-if="showControls && currentSlide.number > 0" class="expo-nav-map d-lg-none d-xl-none button-def" to="map" @mousedown.prevent>
+    <nuxt-link v-if="showMapCustom && showControls && currentSlide.number > 0" class="expo-nav-map d-lg-none d-xl-none button-def" to="map" @mousedown.prevent>
       Mapa
     </nuxt-link>
     <button v-if="showControls && nextSlideExists" class="expo-nav-next button" to="aerial-trams" @click.prevent="nextSlide()" @mousedown.prevent>
@@ -39,11 +39,13 @@ export default {
     }
   },
   computed: {
+    showMapCustom () {
+      return this.$store.state.currentExpoId !== 'viajeinfinito'
+    },
     currentSlide () {
       return this.$store.state.currentSlide
     },
     slideinfinito () {
-      console.log(this.$store.state)
       return this.$store.state.currentExpoId
     },
     progressBarLength () {

@@ -8,7 +8,7 @@
       <logo version="symbol" subtitled />
     </b-navbar-brand>
 
-    <b-navbar-toggle v-if="!showModal && !showMap" target="nav-collapse" />
+    <b-navbar-toggle v-if="showMapCustom && !showModal && !showMap" target="nav-collapse" />
 
     <div v-if="showModal" class="nav-close-modal d-flex">
       <div class="nav-close-modal-info d-sm-block d-none">
@@ -24,7 +24,7 @@
       </nuxt-link>
     </div>
 
-    <div v-if="showMap" class="nav-close-modal d-flex">
+    <div v-if="showMapCustom && showMap" class="nav-close-modal d-flex">
       <div class="nav-close-modal-info">
         <nuxt-link class="nav-close-modal-info-art link-dark" :to="{ path: $store.state.route.from.fullPath }">
           <span>Tancar Mapa</span> <i class="las la-times" />
@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <nuxt-link v-else-if="!showModal && currentSlide.number > 0" class="expo-nav-map d-none d-lg-block button-def ml-auto mr-2" to="map" @mousedown.prevent>
+    <nuxt-link v-else-if="showMapCustom && !showModal && currentSlide.number > 0" class="expo-nav-map d-none d-lg-block button-def ml-auto mr-2" to="map" @mousedown.prevent>
       Mapa
     </nuxt-link>
 
@@ -60,6 +60,9 @@ export default {
     Logo
   },
   computed: {
+    showMapCustom () {
+      return this.$store.state.currentExpoId !== 'viajeinfinito'
+    },
     slideinfinito () {
       return this.$store.state.currentExpoId
     },

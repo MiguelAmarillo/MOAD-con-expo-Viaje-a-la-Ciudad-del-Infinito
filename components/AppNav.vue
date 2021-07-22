@@ -36,7 +36,7 @@
       Mapa
     </nuxt-link>
 
-    <b-collapse v-if="!showModal && !showMap && !this.$route.params.expo" id="nav-collapse" is-nav>
+    <b-collapse v-if="showMapCustom && !showModal && !showMap && !this.$route.params.expo" id="nav-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
         <b-nav-item to="/expositions" @mousedown.prevent>
           Exposició

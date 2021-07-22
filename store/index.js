@@ -31,6 +31,7 @@ export const mutations = {
     state.showMap = false
     state.currentSlide.number = 0
     state.currentSlide.id = ''
+    state.currentExpoId = ''
   },
 
   toggleMap (state, payload) {

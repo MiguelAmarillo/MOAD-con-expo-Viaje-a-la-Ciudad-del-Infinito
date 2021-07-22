@@ -7,7 +7,7 @@
         </div>
       </div>
       <div class="row justify-content-left">
-        <div class="col-sm-12 col-md-3 withoutPaddings">
+        <div class="col-6 col-sm-4 col-md-3 withoutPaddings">
           <nuxt-link class="expo-link-migas" to="/viajeinfinito">
           <svg
           v-if="$route.name == 'viajeinfinito'"
@@ -30,7 +30,7 @@
           </svg>
           </nuxt-link>
         </div>
-        <div class="col-sm-12 col-md-3 withoutPaddings">
+        <div class="col-6 col-sm-4 col-md-3 withoutPaddings">
           <nuxt-link class="expo-link-migas" to="/biografias">
             <svg
             v-if="$route.name == 'biografias'"
@@ -53,10 +53,10 @@
             </svg>
           </nuxt-link>
         </div>
-        <div class="col-sm-12 col-md-3 withoutPaddings">
-          <nuxt-link class="expo-link-migas" to="/tunelTiempo">
+        <div class="col-6 col-sm-4 col-md-3 withoutPaddings">
+          <nuxt-link class="expo-link-migas" to="/tuneldeltiempo">
             <svg
-            v-if="$route.name == 'tunelTiempo'"
+            v-if="$route.name == 'tuneldeltiempo'"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -66,7 +66,7 @@
             </svg>
               <a>Túnel del tiempo</a>
             <svg
-            v-if="$route.name == 'tunelTiempo'"
+            v-if="$route.name == 'tuneldeltiempo'"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -76,7 +76,7 @@
             </svg>
           </nuxt-link>
         </div>
-        <div class="col-sm-12 col-md-3 withoutPaddings">
+        <div class="col-6 col-sm-4 col-md-3 withoutPaddings">
           <nuxt-link class="expo-link-migas" to="/proyectosFundacion">
             <svg
             v-if="$route.name == 'proyectosFundacion'"

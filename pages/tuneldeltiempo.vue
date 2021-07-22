@@ -159,6 +159,7 @@ vivía en condiciones infrahumanas: eran abandonados, maltratados e incluso ase
   </div>
 </template>
 
+
 <script>
 
 export default {
@@ -188,14 +189,28 @@ export default {
 
 <style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One");
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.tuneldeltiempo::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
 .tuneldeltiempo {
   display: flex;
   margin: 20px auto;
   flex-wrap: wrap;
   flex-direction: column;
-  max-width: 700px;
+  max-width: 90%;
   position: relative;
+  overflow-y: scroll;
+  height: 78vh;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
 }
+
 .timeline {
   display: flex;
   margin: 20px auto;
@@ -275,17 +290,17 @@ export default {
   border-right: 2px solid rgba(255, 255, 255, 0.5);
   padding-right: 15px;
 }
-.timeline-item--active {
+.timeline-item {
   opacity: 1;
   transform: translateY(0);
   filter: blur(0px);
 }
-.timeline-item--active:before {
+.timeline-item:hoover {
   top: 50%;
   transition: 0.3s all 0.2s;
   opacity: 1;
 }
-.timeline-item--active .timeline__content-title {
+.timeline-item .timeline__content-title {
   margin: -50px 0 20px 0;
 }
 @media only screen and (max-width: 767px) {

@@ -33,7 +33,7 @@
         <div class="col-6 col-sm-4 col-md-3 withoutPaddings">
           <nuxt-link class="expo-link-migas" to="/biografias">
             <svg
-            v-if="$route.name == 'biografias'"
+            v-if="$route.name == 'biografias' || $route.fullPath.includes('/expositions/vicenteFerrer') || $route.fullPath.includes('/expositions/annaFerrer')"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -43,7 +43,7 @@
             </svg>
               <a>Vicente y Anna</a>
             <svg
-            v-if="$route.name == 'biografias'"
+            v-if="$route.name == 'biografias' || $route.fullPath.includes('/expositions/vicenteFerrer') || $route.fullPath.includes('/expositions/annaFerrer')"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -100,11 +100,11 @@
           </nuxt-link>
         </div>
       </div>
-      <div class="row justify-content-left" v-if="$route.name == 'biografias'">
+      <div class="row justify-content-left" v-if="$route.name == 'biografias' || $route.fullPath.includes('/expositions/vicenteFerrer') || $route.fullPath.includes('/expositions/annaFerrer')">
         <div class="col-sm-12 col-md-4 withoutPaddings">
           <nuxt-link class="expo-link-migas" to="/expositions/vicenteFerrer">
             <svg
-            v-if="$route.name == 'biografias'"
+            v-if="$route.name == 'biografias'  || $route.fullPath.includes('/expositions/vicenteFerrer')"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -114,7 +114,7 @@
             </svg>
               <a>Vicente Ferrer</a>
             <svg
-            v-if="$route.name == 'biografias'"
+            v-if="$route.name == 'biografias'  || $route.fullPath.includes('/expositions/vicenteFerrer')"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -127,7 +127,7 @@
         <div class="col-sm-12 col-md-4 withoutPaddings">
           <nuxt-link class="expo-link-migas" to="/expositions/annaFerrer">
             <svg
-            v-if="$route.name == 'biografias'"
+            v-if="$route.name == 'biografias' || $route.fullPath.includes('/expositions/annaFerrer')"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -137,7 +137,7 @@
             </svg>
               <a>Anna Ferrer</a>
             <svg
-            v-if="$route.name == 'biografias'"
+            v-if="$route.name == 'biografias' || $route.fullPath.includes('/expositions/annaFerrer')"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -163,6 +163,9 @@ export default {
   computed: {
     showMigasDePan () {
       return this.$store.state.activeZone === 'viajeinfinito'
+    },
+    hey () {
+      return this.$route
     }
   }
 }

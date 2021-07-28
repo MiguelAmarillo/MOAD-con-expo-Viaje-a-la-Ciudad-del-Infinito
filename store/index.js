@@ -1,4 +1,5 @@
 import expositions from '@/assets/expositions.js'
+import viajeinfinito from '~/assets/expositions/viajeinfinito'
 
 export const state = () => ({
   showModal: false,
@@ -11,7 +12,8 @@ export const state = () => ({
   currentExpoName: '',
   currentArt: {},
   expositions: undefined,
-  styles: 'defaultStyle'
+  styles: 'defaultStyle',
+  activeZone: 'default',
 })
 
 export const mutations = {
@@ -65,6 +67,15 @@ export const mutations = {
 
   changeStyleToInfinito (state, infinitosStyle) {
     state.styles = infinitosStyle
+  },
+  changeZone (state, zone) {
+    if (zone === 'viajeinfinito' ) {
+      state.activeZone = 'viajeinfinito'
+    } else {
+      state.activeZone = 'default'
+    }
+
+
   }
 }
 

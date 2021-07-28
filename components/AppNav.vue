@@ -61,7 +61,7 @@ export default {
   },
   computed: {
     showMapCustom () {
-      return this.$store.state.currentExpoId !== 'viajeinfinito'
+      return this.$store.state.activeZone !== 'viajeinfinito'
     },
     slideinfinito () {
       return this.$store.state.currentExpoId

@@ -41,6 +41,8 @@ export default {
   mounted () {
     this.$store.commit('changeStyleToInfinito', 'infinitosStyle')
     this.$store.commit('changeCurrentExpoId', 'viajeinfinito')
+    this.$store.commit('changeZone','viajeinfinito')
+
   },
   layout: 'default'
 }

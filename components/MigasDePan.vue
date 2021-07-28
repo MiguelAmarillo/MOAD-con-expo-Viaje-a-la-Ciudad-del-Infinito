@@ -102,7 +102,7 @@
       </div>
       <div class="row justify-content-left" v-if="$route.name == 'biografias'">
         <div class="col-sm-12 col-md-4 withoutPaddings">
-          <nuxt-link class="expo-link-migas" to="/biografias">
+          <nuxt-link class="expo-link-migas" to="/expositions/vicenteFerrer">
             <svg
             v-if="$route.name == 'biografias'"
             xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +125,7 @@
           </nuxt-link>
         </div>
         <div class="col-sm-12 col-md-4 withoutPaddings">
-          <nuxt-link class="expo-link-migas" to="/biografias">
+          <nuxt-link class="expo-link-migas" to="/expositions/annaFerrer">
             <svg
             v-if="$route.name == 'biografias'"
             xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +162,7 @@ export default {
   },
   computed: {
     showMigasDePan () {
-      return this.$store.state.currentExpoId === 'viajeinfinito'
+      return this.$store.state.activeZone === 'viajeinfinito'
     }
   }
 }

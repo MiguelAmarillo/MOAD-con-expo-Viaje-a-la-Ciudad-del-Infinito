@@ -7,7 +7,7 @@
       </h1>
     </div>
     <div class="expositions">
-      <expo-link v-for="(exposition, i) in expositions" :key="i" :exposition="exposition" :number="i + 1" />
+      <expo-link v-for="(exposition, i) in expositionsFiltered" :key="i" :exposition="exposition" :number="i + 1" />
     </div>
   </div>
 </template>
@@ -39,10 +39,14 @@ export default {
   },
   data () {
     return {
-      expositions
+      expositions,
     }
   },
-
+  computed: {
+    expositionsFiltered() {
+      return expositions.filter(expo => expo.showInit)
+    }
+  },
   beforeCreate () {
     this.$store.commit('resetExpo')
   },

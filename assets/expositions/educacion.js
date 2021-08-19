@@ -7,7 +7,7 @@ import polifemo from '~/assets/art/expo-epsg/monto-polifemo.jpg'
 const educacion = [
   {
     id: 'viajeinfinito',
-    title: 'Viaje a la ciudad del infinito',
+    title: 'Viaje a la ciudad de la educación',
     description: 'La exposición Viaje a la ciudad del infinito de la Fundación Vicente Ferrer nos invita a hacer un recorrido fotográfico e histórico que se inicia en el año 1952 con la llegada de Vicente a India.',
     custom: true
   },

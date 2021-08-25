@@ -3,9 +3,13 @@
     toggleable="md"
     type="light"
     fixed="top"
+    style="display:flex flex-wrap: nowrap"
   >
-    <b-navbar-brand to="/" @mousedown.prevent>
+    <b-navbar-brand to="/" @mousedown.prevent @click="logoClick()">
       <logo version="symbol" subtitled />
+    </b-navbar-brand>
+    <b-navbar-brand v-if="!showMapCustom" to="/sobreLaFundacion" @mousedown.prevent class="fundacionlogo">
+      <img src="~/assets/appImages/viajeInfinito/LOGOFUNDACIONFINAL.png" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
     </b-navbar-brand>
 
     <b-navbar-toggle v-if="showMapCustom && !showModal && !showMap" target="nav-collapse" />
@@ -78,12 +82,22 @@ export default {
     currentSlide () {
       return this.$store.state.currentSlide
     }
+  },
+  methods: {
+    logoClick() {
+          this.$store.commit('changeZone','')
+    }
   }
 }
 </script>
 
 <style lang="scss">
   @import '../sass/_variables';
+
+  .fundacionlogo{
+    height: 37px;
+    margin-bottom: 7px;
+  }
 
   .viajeinfinito {
     color: $colorinfinito;

@@ -1,14 +1,14 @@
 body {
    background-color:  #3C3C3B;
-   color: white;
+   color: #CFC8BB;
 }
 
 p {
-  color: rgb(255, 255, 255);
+  color: #CFC8BB;
 }
 
 svg {
-  fill: rgb(255, 255, 255);
+  fill: #CFC8BB;
 }
 
 .navbar {
@@ -24,11 +24,11 @@ div.expo-nav {
 }
 
 .nav-arrow {
-  color: white;
+  color: #CFC8BB;
 }
 
 i {
-  color: white;
+  color: #CFC8BB;
 }
 
 

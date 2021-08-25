@@ -1,160 +1,86 @@
 <template>
   <div class="row justify-content-center migas-container" v-if="showMigasDePan">
-    <div  class="col-sm-8 ">
-            <div class="row justify-content-left">
-        <div class="col-sm-12 withoutPaddings">
-          Expo: VIAJE A LA CIUDAD DEL INFINITO
+    <div  class="col-sm-10 ">
+      <div class="row justify-content-left ">
+        <div class="col-sm-12 withoutPaddings margin-row">
+          <b>Expo: VIAJE A LA CIUDAD DEL INFINITO</b>
         </div>
       </div>
       <div class="mobile-row">
-        <div class="row justify-content-left mobile-col" >
+        <div class="row justify-content-left mobile-col mobile-box margin-row">
           <div class="col-12 col-md-3 withoutPaddings">
             <nuxt-link class="expo-link-migas" to="/viajeinfinito">
-            <svg
-            v-if="$route.name == 'viajeinfinito'"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-right-fill">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-            </svg>
-              <a>Inicio</a>
-            <svg
-            v-if="$route.name == 'viajeinfinito'"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-left-fill" >
-              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-            </svg>
+              <corchete-izquierdo v-if="$route.name == 'viajeinfinito'"></corchete-izquierdo>
+                <a>Inicio</a>
+              <corchete-derecho v-if="$route.name == 'viajeinfinito'"></corchete-derecho>
             </nuxt-link>
           </div>
           <div class="col-12 col-md-3 withoutPaddings">
             <nuxt-link class="expo-link-migas" to="/biografias">
-              <svg
+               <corchete-izquierdo
               v-if="$route.name == 'biografias' || $route.fullPath.includes('/expositions/vicenteFerrer') || $route.fullPath.includes('/expositions/annaFerrer')"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-caret-right-fill">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-              </svg>
+              ></corchete-izquierdo>
                 <a>Vicente y Anna</a>
-              <svg
+               <corchete-derecho
               v-if="$route.name == 'biografias' || $route.fullPath.includes('/expositions/vicenteFerrer') || $route.fullPath.includes('/expositions/annaFerrer')"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-caret-left-fill" >
-                <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-              </svg>
+              ></corchete-derecho>
             </nuxt-link>
           </div>
           <div class="col-12 col-md-3 withoutPaddings">
             <nuxt-link class="expo-link-migas" to="/tuneldeltiempo">
-              <svg
+               <corchete-izquierdo
               v-if="$route.name == 'tuneldeltiempo'"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-caret-right-fill">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-              </svg>
+              ></corchete-izquierdo>
                 <a>Túnel del tiempo</a>
-              <svg
+               <corchete-derecho
               v-if="$route.name == 'tuneldeltiempo'"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-caret-left-fill" >
-                <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-              </svg>
+              ></corchete-derecho>
+
             </nuxt-link>
           </div>
           <div class="col-12 col-md-3 withoutPaddings">
             <nuxt-link class="expo-link-migas" to="/proyectosFundacion">
-              <svg
+               <corchete-izquierdo
               v-if="$route.name == 'proyectosFundacion' || $route.fullPath.includes('/expositions/ecologia') ||
              $route.fullPath.includes('/expositions/educacion') ||
              $route.fullPath.includes('/expositions/feminismo') ||
              $route.fullPath.includes('/expositions/deporte')"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-caret-right-fill">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-              </svg>
+              ></corchete-izquierdo>
                 <a>Proyectos</a>
-              <svg
+               <corchete-derecho
               v-if="$route.name == 'proyectosFundacion'  || $route.fullPath.includes('/expositions/ecologia') ||
              $route.fullPath.includes('/expositions/educacion') ||
              $route.fullPath.includes('/expositions/feminismo') ||
              $route.fullPath.includes('/expositions/deporte')"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-caret-left-fill" >
-                <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-              </svg>
+              ></corchete-derecho>
             </nuxt-link>
           </div>
         </div>
             <!-- subseccion biografias--->
       <div v-if="$route.name !== 'viajeinfinito' && $route.name !== 'tuneldeltiempo'" class="vertical-line"></div>
 
-      <div class="row justify-content-left mobile-col " v-if="$route.name == 'biografias' || $route.fullPath.includes('/expositions/vicenteFerrer') || $route.fullPath.includes('/expositions/annaFerrer')">
+      <div class="row justify-content-left align-content-center mobile-col " v-if="$route.name == 'biografias' || $route.fullPath.includes('/expositions/vicenteFerrer') || $route.fullPath.includes('/expositions/annaFerrer')">
         <div class="col-sm-12 col-md-4 withoutPaddings align-self-start">
           <nuxt-link class="expo-link-migas" to="/expositions/vicenteFerrer">
-            <svg
+             <corchete-izquierdo
             v-if="$route.fullPath.includes('/expositions/vicenteFerrer')"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-right-fill">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-            </svg>
+              ></corchete-izquierdo>
               <a>Vicente Ferrer</a>
-            <svg
+             <corchete-derecho
             v-if="$route.fullPath.includes('/expositions/vicenteFerrer')"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-left-fill" >
-              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-            </svg>
+              ></corchete-derecho>
           </nuxt-link>
         </div>
         <div class="col-sm-12 col-md-4 withoutPaddings align-self-start">
           <nuxt-link class="expo-link-migas" to="/expositions/annaFerrer">
-            <svg
+             <corchete-izquierdo
             v-if="$route.fullPath.includes('/expositions/annaFerrer')"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-right-fill">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-            </svg>
+              ></corchete-izquierdo>
               <a>Anna Ferrer</a>
-            <svg
+             <corchete-derecho
             v-if="$route.fullPath.includes('/expositions/annaFerrer')"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-left-fill" >
-              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-            </svg>
+               ></corchete-derecho>
+
           </nuxt-link>
         </div>
 
@@ -168,94 +94,54 @@
              $route.fullPath.includes('/expositions/deporte')">
         <div class="col-sm-12 col-md-3 withoutPaddings">
           <nuxt-link class="expo-link-migas" to="/expositions/ecologia">
-            <svg
+             <corchete-izquierdo
             v-if="$route.fullPath.includes('/expositions/ecologia')"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-right-fill">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-            </svg>
+              ></corchete-izquierdo>
+
               <a>Ecología</a>
-            <svg
+             <corchete-derecho
             v-if="$route.fullPath.includes('/expositions/ecologia')"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-left-fill" >
-              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-            </svg>
+              ></corchete-derecho>
+
           </nuxt-link>
         </div>
         <div class="col-sm-12 col-md-3 withoutPaddings">
           <nuxt-link class="expo-link-migas" to="/expositions/educacion">
-            <svg
+             <corchete-izquierdo
             v-if="$route.fullPath.includes('/expositions/educacion')"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-right-fill">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-            </svg>
+              ></corchete-izquierdo>
+
               <a>Educación</a>
-            <svg
+             <corchete-derecho
             v-if="$route.fullPath.includes('/expositions/educacion')"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-left-fill" >
-              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-            </svg>
+              ></corchete-derecho>
+
           </nuxt-link>
         </div>
         <div class="col-sm-12 col-md-3 withoutPaddings">
           <nuxt-link class="expo-link-migas" to="/expositions/feminismo">
-            <svg
+             <corchete-izquierdo
             v-if="$route.fullPath.includes('/expositions/feminismo')"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-right-fill">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-            </svg>
+                ></corchete-izquierdo>
+
               <a>Feminismo</a>
-            <svg
+             <corchete-derecho
             v-if="$route.fullPath.includes('/expositions/feminismo')"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-left-fill" >
-              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-            </svg>
+              ></corchete-derecho>
+
           </nuxt-link>
         </div>
         <div class="col-sm-12 col-md-3 withoutPaddings">
           <nuxt-link class="expo-link-migas" to="/expositions/deporte">
-            <svg
+             <corchete-izquierdo
             v-if="$route.fullPath.includes('/expositions/deporte')"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-right-fill">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-            </svg>
+              ></corchete-izquierdo>
+
               <a>Deporte</a>
-            <svg
+             <corchete-derecho
             v-if="$route.fullPath.includes('/expositions/deporte')"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-caret-left-fill" >
-              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-            </svg>
+              ></corchete-derecho>
+
           </nuxt-link>
         </div>
       </div>
@@ -271,8 +157,15 @@
 </template>
 
 <script>
+import corcheteIzquierdo from './corcheteIzquierdo'
+import corcheteDerecho from './corcheteDerecho'
+
 
 export default {
+    components: {
+    corcheteIzquierdo,
+    corcheteDerecho
+  },
   data () {
     return {
       currentUrl: '',
@@ -297,12 +190,12 @@ body {
 font-size: 12px
 }
 
-.expo-link-migas:link { color: white; text-decoration:none; }
-.expo-link-migas:hover { color: #A03A1E; text-decoration:none }
-.expo-link-migas:active { color: white; text-decoration:none; }
+.expo-link-migas:link { color: #CFC8BB; text-decoration:none; }
+.expo-link-migas:hover { color: #E55C17; text-decoration:none }
+.expo-link-migas:active { color: #CFC8BB; text-decoration:none; }
 
 .bi {
-  fill: #A03A1E !important;
+  fill: #E55C17 !important;
 }
 
 @media (max-width: 768px) {
@@ -314,10 +207,20 @@ font-size: 12px
   .mobile-row {
 }
 .vertical-line {
-  border-left: 2px solid white;
+  border-left: 2px solid #CFC8BB;
   height: 5rem;
   padding-left: 5px;
 }
+  .mobile-box {
+    max-width: 200px;
+  }
 }
+
+@media (min-width: 768px) {
+  .margin-row{
+    margin-bottom: 5px
+  }
+}
+
 
 </style>

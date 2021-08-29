@@ -19,7 +19,8 @@ const expositions = [
   },
   {
     title: 'Viaje a la ciudad del infinito',
-    description: 'La exposición Viaje a la ciudad del infinito de la Fundación Vicente Ferrer nos invita a hacer un recorrido fotográfico e histórico que se inicia en el año 1952 con la llegada de Vicente a India.',
+    description: 'La exposición “Viaje a la ciudad del infinito” de la Fundación Vicente Ferrer nos invita a hacer un recorrido fotográfico e histórico que se inicia en el año 1952 con la llegada de Vicente a India. La muestra nos cuenta los principales hitos conseguidos durante estos años y conocemos los proyectos de desarrollo que se llevan a cabo en los estados de Andhra Pradesh y Telangana, donde trabaja la Fundación, desde el año 1969. Asimismo, descubrimos la figura de Vicente Ferrer, el hombre que lideró la transformación social más importante del sur de la India a favor de las castas más discriminadas, junto a Anna Ferrer, la mujer incansable, entusiasta y luchadora y que hoy es la actual presidenta de la Fundación. Un viaje en el tiempo y a una realidad lejana que seguro dejará huella.',
+    img: vicenteFerrer[2].src.url,
     url: 'viajeinfinito',
     id: 'viajeinfinito',
     showInit: true,

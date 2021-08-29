@@ -1,19 +1,28 @@
 <template>
   <div class="viajeinfinito">
     <div class="row justify-content-center">
-      <div class="col-sm-12 col-md-4 withoutPaddings">
+      <div class="col-sm-12 col-md-4 withoutPaddings cuadrado1">
         <nuxt-link class="expo-link container" to="/biografias">
-              <img src="~/assets/appImages/viajeInfinito/imgBiografias.jpeg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              <picture>
+              <source srcset="~/assets/art/expo-vicente/Portada/biografiasmovil.jpg" media="(max-width:776px)">
+              <img src="~/assets/art/expo-vicente/Portada/biografias.jpg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              </picture>
         </nuxt-link>
       </div>
       <div class="col-sm-12 col-md-4 withoutPaddings">
         <nuxt-link class="expo-link container" to="/tuneldeltiempo">
-              <img src="~/assets/appImages/viajeInfinito/imgCronograma.jpeg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              <picture>
+              <source srcset="~/assets/art/expo-vicente/Portada/tuneltiempomovil.jpg" media="(max-width:776px)">
+              <img src="~/assets/art/expo-vicente/Portada/tuneltiempo.jpg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              </picture>
         </nuxt-link>
       </div>
       <div class="col-sm-12 col-md-4 withoutPaddings">
         <nuxt-link class="expo-link container" to="/expositions/viajeinfinito">
-              <img src="~/assets/appImages/viajeInfinito/imgProyectos.jpeg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              <picture>
+              <source srcset="~/assets/art/expo-vicente/Portada/proyectosmovil.jpg" media="(max-width:776px)">
+              <img src="~/assets/art/expo-vicente/Portada/proyectos.jpg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              </picture>
         </nuxt-link>
       </div>
     </div>
@@ -56,10 +65,31 @@ export default {
 
 .row {
   height: 30em;
-  margin: 0 3rem
+  margin: 6rem 2rem;
+  position: center;
 }
+
 .withoutPaddings {
-  padding: 0px;
+  padding: 0;
+}
+
+
+img {
+    opacity: 50%;
+    margin: 0;
+}
+
+img:hover {
+    opacity: 100%;
+}
+
+@media screen and (max-width: 776px) {
+    img {
+        opacity: 100%;
+    };
+    .row {
+        margin: 2rem 2rem;
+    }
 }
 
 </style>

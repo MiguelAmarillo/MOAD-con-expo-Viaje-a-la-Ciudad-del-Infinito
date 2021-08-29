@@ -1,122 +1,171 @@
-import creyendo from '~/assets/art/expo-epsg/anon-creyendo.jpg'
-import mariposas from '~/assets/art/expo-epsg/carrion-mariposas.jpg'
-import lagrimas from '~/assets/art/expo-epsg/monto-lagrimas.png'
-import oniria from '~/assets/art/expo-epsg/monto-oniria.jpg'
-import polifemo from '~/assets/art/expo-epsg/monto-polifemo.jpg'
+import vicente1 from '~/assets/art/expo-vicente/BiografiaVicente/vicente1.jpg'
+import vicente2 from '~/assets/art/expo-vicente/BiografiaVicente/vicente2.jpg'
+import vicente3 from '~/assets/art/expo-vicente/BiografiaVicente/vicente3.jpg'
+import vicente4 from '~/assets/art/expo-vicente/BiografiaVicente/vicente4.jpg'
+import vicente5 from '~/assets/art/expo-vicente/BiografiaVicente/vicente5.jpg'
+import vicente6 from '~/assets/art/expo-vicente/BiografiaVicente/vicente6.jpg'
+import vicente7 from '~/assets/art/expo-vicente/BiografiaVicente/vicente7.jpg'
+import vicente8 from '~/assets/art/expo-vicente/BiografiaVicente/vicente8.jpg'
+import vicente9 from '~/assets/art/expo-vicente/BiografiaVicente/vicente9.jpg'
+import vicente10 from '~/assets/art/expo-vicente/BiografiaVicente/vicente10.jpg'
+import vicente11 from '~/assets/art/expo-vicente/BiografiaVicente/vicente11.jpg'
+import vicente12 from '~/assets/art/expo-vicente/BiografiaVicente/vicente12.jpg'
+import vicente13 from '~/assets/art/expo-vicente/BiografiaVicente/vicente13.jpg'
 
 const vicenteFerrer = [
   {
     id: 'viajeinfinito',
-    title: 'elpepe',
-    description: 'La exposición Viaje a la ciudad del infinito de la Fundación Vicente Ferrer nos invita a hacer un recorrido fotográfico e histórico que se inicia en el año 1952 con la llegada de Vicente a India.',
+    title: 'Vicente Ferrer, la revolución silenciosa',
+    description: '«Todo lo que te ocurre a ti, me ocurre a mí. No puedes mirar el sufrimiento de los otros sin sentirlo dentro de ti. Puedes mirar o no mirar, pero ese sufrimiento te duele a ti también, y cuando te das cuenta te sientes responsable. Y piensas, ¿qué puedo hacer?»',
     custom: true
   },
   {
-    id: 'epsg',
-    title: "L'art digital en quarantena",
-    description: "L'exposició inaugural del MOAD exposa art digital de companys del Campus de Gandia. Molts d'ells han realitzat aquestes peces durant la quarantena, periode en el qual els mitjans expositius tradicionals no estaven disponibles. Aquesta exposició és un recull d'obres sense res més en comú entre elles que el fet d'haver sigut produïdes en un periode únic per un grup de gent que conviu en un mateix lloc durant el curs. És una exposició, a més, oberta a tot l'alumnat que hi vulga participar.",
-    custom: true
-  },
-  {
-    id: 'mariposas',
-    title: 'Mariposas en la cabeza de marcos',
+    id: 'vicente1',
+    title: 'Vicente Ferrer',
     src: {
       type: 'img',
-      url: mariposas,
-      thumbnail: mariposas
+      url: vicente1,
+      thumbnail: vicente1
     },
-    author: 'Julia Carrión',
-    artistnotes: 'Realicé esta obra durante el periodo de confinamiento, dónde estaba 24h con mi hermano Marcos entre 4 paredes. Lo observé todos los días y de aquí nació la idea de este collage. Han pasado muchos años, pero sigue con mariposas en la cabeza. '
+    author: 'Pablo Lasaosa',
+    description: 'Vicente Ferrer ingresó en la Orden de los Jesuitas en 1944 «porque me di cuenta de que para ayudar a los demás era mejor unirme a un grupo que tuviera los mismos ideales». '
   },
   {
-    id: 'loose',
-    title: 'Loose',
-    src: {
-      type: 'video',
-      url: '/video/mateos-loose.mp4',
-      thumbnail: require('~/assets/art/expo-epsg/thumbnails/mateos-loose-th.png')
-    },
-    author: 'Eduardo Mateos',
-    artistnotes: 'Pieza de arte abstracto que combina 2D y 3D en un juego visual que atraviesa las etapas de una sociedad. Una comunidad que crece en grupo y pronto se convierte en un campo de batalla de posiciones opuestas que acaba inevitablemente con la consumación de uno de las fuerzas.'
-  },
-  {
-    id: 'creyendo',
-    title: 'Creyendo estar contigo',
+    id: 'vicente2',
+    title: 'Primera comunión de Vicente Ferrer',
     src: {
       type: 'img',
-      url: creyendo,
-      thumbnail: creyendo
+      url: vicente2,
+      thumbnail: vicente2
     },
-    author: 'Sofía Añón Picó',
-    description: 'Creyendo estar contigo és un cartell per a la pel·lícula In the Mood For Love.',
-    artistnotes: '“Juego conmigo a ser feliz creyendo estar contigo. Después de todo este tiempo me deberías resultar extraña, pero, en realidad, me duele sentirte lejos.” Rodeados de un ambiente cargado y asfixiante, los protagonistas desean estar juntos, se quieren, se anhelan, se sienten cerca, casi incluso rozándose; pero a su vez, una invisible distancia los separa, se sienten lejos, perdidos, solos, cada uno mirando a su lado, haciendo imposible que estén juntos.'
+    author: 'Pablo Lasaosa',
+    description: 'En 1952 desembarcó en el estado de Maharastra (la India) y trabajó con campesinos empobrecidos, ayudando a excavar pozos y a crear escuelas y dispensarios médicos.'
   },
   {
-    id: 'raices',
-    title: 'Raíces',
-    src: {
-      type: 'video',
-      url: '/video/socarrona-raices.mp4',
-      thumbnail: require('~/assets/art/expo-epsg/thumbnails/socarrona-raices-th.png')
-    },
-    author: 'Socarrona',
-    web: 'https://www.socarrona.com/'
-  },
-  {
-    id: 'lagrimas',
-    title: 'Entre paredes de lágrimas',
+    id: 'vicente3',
+    title: 'Vicente Ferrer en bicicleta',
     src: {
       type: 'img',
-      url: lagrimas,
-      thumbnail: lagrimas
+      url: vicente3,
+      thumbnail: vicente3
     },
-    author: 'Carlos Montó'
+    author: 'Pablo Lasaosa',
+    description: 'Debido a la presión ejercida por los terratenientes locales por defender los derechos de los campesinos, en 1968 fue expulsado de la India. Al año siguiente, la entonces primera ministra Indira Gandhi permitió su regreso.'
   },
   {
-    id: 'oniria',
-    title: 'Oniria',
+    id: 'vicente4',
+    title: 'Pasaporte de Vicente',
     src: {
       type: 'img',
-      url: oniria,
-      thumbnail: oniria
+      url: vicente4,
+      thumbnail: vicente4
     },
-    author: 'Carlos Montó'
+    author: 'Pablo Lasaosa',
+    description: 'En 1969 Vicente Ferrer y Anne Perry, después conocida como Anna Ferrer, fundaron junto con dos voluntarios Rural Development Trust, la matriz de la Fundación Vicente Ferrer en la India.'
   },
   {
-    id: 'polifemo',
-    title: 'Polifemo',
+    id: 'vicente5',
+    title: 'Vicente como jesuita en la India',
     src: {
       type: 'img',
-      url: polifemo,
-      thumbnail: polifemo
+      url: vicente5,
+      thumbnail: vicente5
     },
-    author: 'Carlos Montó'
+    author: 'Pablo Lasaosa',
+    description: 'Se establecieron en Anantapur, un distrito castigado por la sequía, donde solo unos pocos controlaban la explotación de las tierras y donde millones de dalits y de otras castas desfavorecidas vivían en la pobreza más extrema.'
   },
   {
-    id: 'undercover',
-    title: 'Undercover Love',
+    id: 'vicente6',
+    title: 'Vicente y Anna con su hija',
     src: {
-      type: 'audio',
-      url: '/audio/freq-undercover.mp3'
+      type: 'img',
+      url: vicente6,
+      thumbnail: vicente6
     },
-    author: 'detunedfreq',
-    artistnotes: 'Llevaba tiempo queriendo hacer un tema pop con ritmo de garage, y esta fue la oportunidad perfecta. Además, creo que usar el piano como instrumento principal del break le da un toque especial. No sé, esto no representa nada. Simplemente me mola un montón cómo suena.'
+    author: 'Pablo Lasaosa',
+    description: 'Vicente Ferrer fue un idealista orientado a la acción, un humanista y un visionario.'
   },
   {
-    id: 'letsgoaway',
-    title: "Let's Go Away For A While",
+    id: 'vicente7',
+    title: 'Vicente con sus hijos',
     src: {
-      type: 'video',
-      url: '/video/polfrank-letsgo.mp4',
-      thumbnail: require('~/assets/art/expo-epsg/thumbnails/polfrank-letsgo-th.png')
+      type: 'img',
+      url: vicente7,
+      thumbnail: vicente7
     },
-    author: 'PolFrank',
-    artistnotes: 'Estar tancada a casa dels pares i tenint l\'equip que sol utilitzar per gravar música al meu pis, em va "obligar" a fer música d\'una manera molt més acústica i de baix pressupost del què estic acostumada. Amb només tres instruments: piano, baix elèctric i un tamboret, i gravat amb l\'àudio i la càmera del mòbil, vaig aconseguir tocar un arrangement d\'esta peça dels Beach Boys, una peça que feia temps que volia versionar i que per falta de temps, no havia pogut abans. La quarentena ha fet que veja que "menys és més" i que no cal tindre-ho tot per fer alguna cosa decent.'
+    author: 'Pablo Lasaosa',
+    description: 'En 1970, después de salir de la Orden de los Jesuitas, contrajo matrimonio con Anna Ferrer, una mujer ante todo pragmática y con una gran capacidad para la negociación, con la que tuvo tres hijos: Tara, Moncho y Yamuna.'
   },
   {
-    id: 'epsg-end',
-    title: "L'art digital en quarantena",
-    description: "Moltes gràcies per visitar l'exposició inaugural del Museu Online d'Art Digital. Moltes gràcies a Sofía Añón Picó, Eduardo Mateos, Julia Carrión, Socarrona, Carlos Montó, detunedfreq i PolFrank per confiar en aquesta plataforma tan nova per a exposar el seu art. Aquesta és una exposició oberta i en proves. Si tens suggerències i/o vols participar envia un correu a moad@imcarl.es. Si t'ha agradat l'exposició, comparteix-la. Gràcies per la visita!",
+    id: 'vicente8',
+    title: 'Vicente con campesinos',
+    src: {
+      type: 'img',
+      url: vicente8,
+      thumbnail: vicente8
+    },
+    author: 'Pablo Lasaosa',
+    description: 'Vicente y Anna consolidaron un tándem indivisible para emprender el gran proyecto que es hoy la Fundación Vicente Ferrer, la cual ha posibilitado que casi tres millones de personas en Anantapur hayan salido de la pobreza extrema. '
+  },
+  {
+    id: 'vicente9',
+    title: 'Vicente hablando con campesinos',
+    src: {
+      type: 'img',
+      url: vicente9,
+      thumbnail: vicente9
+    },
+    author: 'Pablo Lasaosa',
+    description: 'Imagen de Vicente Ferrer sobre un fondo azul '
+  },
+  {
+    id: 'vicente10',
+    title: 'Reunión de Vicente con campesinos',
+    src: {
+      type: 'img',
+      url: vicente10,
+      thumbnail: vicente10
+    },
+    author: 'Pablo Lasaosa',
+    description: 'Imagen de Vicente Ferrer sobre un fondo azul '
+  },
+  {
+    id: 'vicente11',
+    title: 'Entrevista a Vicente en la radio',
+    src: {
+      type: 'img',
+      url: vicente11,
+      thumbnail: vicente11
+    },
+    author: 'Pablo Lasaosa',
+    description: 'Imagen de Vicente Ferrer sobre un fondo azul '
+  },
+  {
+    id: 'vicente12',
+    title: 'Entrega a Vicente del premio Príncipe de Asturias de la concordia en 1998',
+    src: {
+      type: 'img',
+      url: vicente12,
+      thumbnail: vicente12
+    },
+    author: 'Pablo Lasaosa',
+    description: 'Su trabajo por el progreso de las zonas rurales de la India, llevó a Vicente a obtener el Premio Príncipe de Asturias de la Concordia en 1998 e incluso a ser candidato al Premio Nobel de la Paz en 2010.'
+  },
+  {
+    id: 'vicente13',
+    title: 'Moncho Ferrer',
+    src: {
+      type: 'img',
+      url: vicente13,
+      thumbnail: vicente13
+    },
+    author: 'Pablo Lasaosa',
+    description: 'Hoy Moncho Ferrer, director de programas de la Fundación, hace posible que la revolución silenciosa continúe. «La muerte de mi padre es el fin de una era, pero no de sus sueños».'
+  },
+  {
+    id: 'finexpo',
+    title: "Fin de la biografía de Vicente Ferrer",
+    description: "«Cuando empezamos en Anantapur no teníamos nada. Teníamos solamente la nada. La nada es la nada... Solo es necesario entrar en casa de un intocable para comprenderlo »",
     custom: true
   }
 ]

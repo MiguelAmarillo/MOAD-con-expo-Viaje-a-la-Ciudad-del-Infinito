@@ -3,12 +3,12 @@
     <div class="row justify-content-center">
       <div class="col-sm-12 col-md-4 withoutPaddings">
         <nuxt-link class="expo-link container" to="/expositions/vicenteFerrer">
-              <img src="~/assets/appImages/viajeInfinito/imgCronograma.jpeg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              <img src="~/assets/art/expo-vicente/Biografias/vicente.jpg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
         </nuxt-link>
       </div>
       <div class="col-sm-12 col-md-4 withoutPaddings">
         <nuxt-link class="expo-link container" to="/expositions/annaFerrer">
-              <img src="~/assets/appImages/viajeInfinito/imgProyectos.jpeg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              <img src="~/assets/art/expo-vicente/Biografias/anna.jpg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
         </nuxt-link>
       </div>
     </div>
@@ -52,6 +52,20 @@ export default {
 }
 .withoutPaddings {
   padding: 0px;
+}
+
+img {
+    opacity: 70%;
+}
+
+img:hover {
+    opacity: 100%;
+}
+
+.row {
+  height: 35rem;
+  margin: 4rem 2rem;
+  position: center;
 }
 
 </style>

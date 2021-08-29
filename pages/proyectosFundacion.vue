@@ -3,23 +3,23 @@
     <div class="row justify-content-center">
       <div class="col-sm-12 col-md-3 withoutPaddings">
         <nuxt-link class="expo-link container" to="/expositions/ecologia">
-              <img src="~/assets/appImages/viajeInfinito/imgProyectos.jpeg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              <img src="~/assets/art/expo-vicente/Proyectos/ecologia.jpg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
         </nuxt-link>
       </div>
       <div class="col-sm-12 col-md-3 withoutPaddings">
         <nuxt-link class="expo-link container" to="/expositions/educacion">
-              <img src="~/assets/appImages/viajeInfinito/imgProyectos.jpeg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              <img src="~/assets/art/expo-vicente/Proyectos/educacion.jpg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
         </nuxt-link>
       </div>
 
       <div class="col-sm-12 col-md-3 withoutPaddings">
         <nuxt-link class="expo-link container" to="/expositions/feminismo">
-              <img src="~/assets/appImages/viajeInfinito/imgProyectos.jpeg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              <img src="~/assets/art/expo-vicente/Proyectos/feminismo.jpg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
         </nuxt-link>
       </div>
       <div class="col-sm-12 col-md-3 withoutPaddings">
         <nuxt-link class="expo-link container" to="/expositions/deporte">
-              <img src="~/assets/appImages/viajeInfinito/imgProyectos.jpeg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              <img src="~/assets/art/expo-vicente/Proyectos/deporte.jpg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
         </nuxt-link>
       </div>
 
@@ -63,4 +63,21 @@ export default {
 .withoutPaddings {
   padding: 0px;
 }
+
+img {
+    opacity: 70%;
+}
+
+img:hover {
+    opacity: 100%;
+}
+
+.row {
+  height: 35rem;
+  margin: 4rem 2rem;
+  position: center;
+}
+
+
+
 </style>

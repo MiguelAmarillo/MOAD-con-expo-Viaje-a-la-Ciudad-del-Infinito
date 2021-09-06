@@ -30,7 +30,7 @@ const anaFerrer = [
   },
   {
     id: 'anna2',
-    title: 'Anna Perry en la escuela',
+    title: 'Anne Perry de niña',
     src: {
       type: 'img',
       url: anna2,
@@ -41,7 +41,7 @@ const anaFerrer = [
   },
   {
     id: 'anna3',
-    title: 'Anna Perry en la escuela',
+    title: 'Anna Ferrer con vestido sugali',
     src: {
       type: 'img',
       url: anna3,
@@ -52,7 +52,7 @@ const anaFerrer = [
   },
   {
     id: 'anna4',
-    title: 'Anna Perry en la escuela',
+    title: 'Anna y Vicente con sus hijos',
     src: {
       type: 'img',
       url: anna4,
@@ -63,7 +63,7 @@ const anaFerrer = [
   },
   {
     id: 'anna5',
-    title: 'Anna Perry en la escuela',
+    title: 'Anna Ferrer inaugurando un taller',
     src: {
       type: 'img',
       url: anna5,
@@ -74,7 +74,7 @@ const anaFerrer = [
   },
   {
     id: 'anna6',
-    title: 'Anna Perry en la escuela',
+    title: 'Anna Ferrer supervisando medicamentos',
     src: {
       type: 'img',
       url: anna6,
@@ -85,7 +85,7 @@ const anaFerrer = [
   },
   {
     id: 'anna7',
-    title: 'Anna Perry en la escuela',
+    title: 'Anna Ferrer en una charla de sensibilización',
     src: {
       type: 'img',
       url: anna7,
@@ -96,7 +96,7 @@ const anaFerrer = [
   },
   {
     id: 'anna8',
-    title: 'Anna Perry en la escuela',
+    title: 'Anna y Vicente con campesinos',
     src: {
       type: 'img',
       url: anna8,
@@ -107,7 +107,7 @@ const anaFerrer = [
   },
   {
     id: 'anna9',
-    title: 'Anna Perry en la escuela',
+    title: 'Anna Ferrer con sus hijas y trabajadoras',
     src: {
       type: 'img',
       url: anna9,
@@ -118,7 +118,7 @@ const anaFerrer = [
   },
   {
     id: 'anna10',
-    title: 'Anna Perry en la escuela',
+    title: 'Anna Ferrer con su hija',
     src: {
       type: 'img',
       url: anna10,
@@ -129,7 +129,7 @@ const anaFerrer = [
   },
   {
     id: 'anna11',
-    title: 'Anna Perry en la escuela',
+    title: 'Anna Ferrer',
     src: {
       type: 'img',
       url: anna11,

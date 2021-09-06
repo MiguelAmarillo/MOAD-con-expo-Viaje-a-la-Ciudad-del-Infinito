@@ -61,7 +61,7 @@
 
       <div class="row justify-content-left align-content-center mobile-col " v-if="$route.name == 'biografias' || $route.fullPath.includes('/expositions/vicenteFerrer') || $route.fullPath.includes('/expositions/annaFerrer')">
         <div class="col-sm-12 col-md-4 withoutPaddings align-self-start">
-          <nuxt-link class="expo-link-migas" to="/expositions/vicenteFerrer">
+          <nuxt-link class="expo-link-migas" to="/expositions/vicenteFerrer" @click.native="resetExpo">
              <corchete-izquierdo
             v-if="$route.fullPath.includes('/expositions/vicenteFerrer')"
               ></corchete-izquierdo>
@@ -72,7 +72,7 @@
           </nuxt-link>
         </div>
         <div class="col-sm-12 col-md-4 withoutPaddings align-self-start">
-          <nuxt-link class="expo-link-migas" to="/expositions/annaFerrer">
+          <nuxt-link class="expo-link-migas" to="/expositions/annaFerrer" @click.native="resetExpo">
              <corchete-izquierdo
             v-if="$route.fullPath.includes('/expositions/annaFerrer')"
               ></corchete-izquierdo>
@@ -93,7 +93,7 @@
              $route.fullPath.includes('/expositions/feminismo') ||
              $route.fullPath.includes('/expositions/deporte')">
         <div class="col-sm-12 col-md-3 withoutPaddings">
-          <nuxt-link class="expo-link-migas" to="/expositions/ecologia">
+          <nuxt-link class="expo-link-migas" to="/expositions/ecologia" @click.native="resetExpo">
              <corchete-izquierdo
             v-if="$route.fullPath.includes('/expositions/ecologia')"
               ></corchete-izquierdo>
@@ -106,7 +106,7 @@
           </nuxt-link>
         </div>
         <div class="col-sm-12 col-md-3 withoutPaddings">
-          <nuxt-link class="expo-link-migas" to="/expositions/educacion">
+          <nuxt-link class="expo-link-migas" to="/expositions/educacion" @click.native="resetExpo">
              <corchete-izquierdo
             v-if="$route.fullPath.includes('/expositions/educacion')"
               ></corchete-izquierdo>
@@ -119,7 +119,7 @@
           </nuxt-link>
         </div>
         <div class="col-sm-12 col-md-3 withoutPaddings">
-          <nuxt-link class="expo-link-migas" to="/expositions/feminismo">
+          <nuxt-link class="expo-link-migas" to="/expositions/feminismo" @click.native="resetExpo">
              <corchete-izquierdo
             v-if="$route.fullPath.includes('/expositions/feminismo')"
                 ></corchete-izquierdo>
@@ -132,7 +132,7 @@
           </nuxt-link>
         </div>
         <div class="col-sm-12 col-md-3 withoutPaddings">
-          <nuxt-link class="expo-link-migas" to="/expositions/deporte">
+          <nuxt-link class="expo-link-migas" to="/expositions/deporte" @click.native="resetExpo">
              <corchete-izquierdo
             v-if="$route.fullPath.includes('/expositions/deporte')"
               ></corchete-izquierdo>
@@ -169,6 +169,11 @@ export default {
   data () {
     return {
       currentUrl: '',
+    }
+  },
+  methods:{
+    resetExpo() {
+      this.$store.commit('resetExpoInfinito')
     }
   },
   computed: {

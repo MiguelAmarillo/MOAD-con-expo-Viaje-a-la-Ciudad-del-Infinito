@@ -35,7 +35,13 @@ export const mutations = {
     state.currentSlide.id = ''
     state.currentExpoId = ''
   },
-
+  resetExpoInfinito (state) {
+    state.showModal = false
+    state.showMap = false
+    state.currentSlide.number = 0
+    state.currentSlide.id = ''
+    state.currentExpoId = ''
+  },
   toggleMap (state, payload) {
     if (payload === 'open') {
       state.showMap = true

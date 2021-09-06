@@ -21,6 +21,7 @@ div.expo-nav {
 
 .expo-slide-info {
   background-color: #3C3C3B !important;
+  border-top: 1.5px #CFC8BB solid !important ;
 }
 
 .nav-arrow {
@@ -34,4 +35,15 @@ i {
 
 .expo-nav-progress {
 border-top: 4px solid #A03A1E !important;
+}
+
+
+.modal-controls-lg {
+  background-color: #3C3C3B !important;
+
+}
+
+.art-img {
+  background-color: #3C3C3B !important;
+
 }

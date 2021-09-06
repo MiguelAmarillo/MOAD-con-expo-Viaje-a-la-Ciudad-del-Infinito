@@ -1,122 +1,147 @@
-import creyendo from '~/assets/art/expo-epsg/anon-creyendo.jpg'
-import mariposas from '~/assets/art/expo-epsg/carrion-mariposas.jpg'
-import lagrimas from '~/assets/art/expo-epsg/monto-lagrimas.png'
-import oniria from '~/assets/art/expo-epsg/monto-oniria.jpg'
-import polifemo from '~/assets/art/expo-epsg/monto-polifemo.jpg'
+import anna1 from '~/assets/art/expo-vicente/BiografiaAnna/anna1.jpg'
+import anna2 from '~/assets/art/expo-vicente/BiografiaAnna/anna2.jpg'
+import anna3 from '~/assets/art/expo-vicente/BiografiaAnna/anna3.jpg'
+import anna4 from '~/assets/art/expo-vicente/BiografiaAnna/anna4.jpg'
+import anna5 from '~/assets/art/expo-vicente/BiografiaAnna/anna5.jpg'
+import anna6 from '~/assets/art/expo-vicente/BiografiaAnna/anna6.jpg'
+import anna7 from '~/assets/art/expo-vicente/BiografiaAnna/anna7.jpg'
+import anna8 from '~/assets/art/expo-vicente/BiografiaAnna/anna8.jpg'
+import anna9 from '~/assets/art/expo-vicente/BiografiaAnna/anna9.jpg'
+import anna10 from '~/assets/art/expo-vicente/BiografiaAnna/anna10.jpg'
+import anna11 from '~/assets/art/expo-vicente/BiografiaAnna/anna11.jpg'
 
 const anaFerrer = [
   {
     id: 'viajeinfinito',
-    title: 'Vida de Anna Ferrer',
-    description: 'Vida de Anna Ferrerla Fundación Vicente Ferrer nos invita a hacer un recorrido fotográfico e histórico que se inicia en el año 1952 con la llegada de Vicente a India.',
+    title: 'Anna Ferrer, arquitecta de sueños imposibles',
+    description: '«Si la India fuera una persona, sería una mujer. Si fuera un sentido, sería una mirada. Aquí    en la India he aprendido a mirar más allá de lo evidente. Como mujer me emociona haber luchado junto a las mujeres de la India. He visto en sus caras miradas valientes y llenas de libertad»',
     custom: true
   },
   {
-    id: 'epsg',
-    title: "Vida de Anna Ferrer",
-    description: "L'exposició inaugural del MOAD exposa art digital de companys del Campus de Gandia. Molts d'ells han realitzat aquestes peces durant la quarantena, periode en el qual els mitjans expositius tradicionals no estaven disponibles. Aquesta exposició és un recull d'obres sense res més en comú entre elles que el fet d'haver sigut produïdes en un periode únic per un grup de gent que conviu en un mateix lloc durant el curs. És una exposició, a més, oberta a tot l'alumnat que hi vulga participar.",
-    custom: true
-  },
-  {
-    id: 'mariposas',
-    title: 'Mariposas en la cabeza de marcos',
+    id: 'anna1',
+    title: 'Anna Perry en la escuela',
     src: {
       type: 'img',
-      url: mariposas,
-      thumbnail: mariposas
+      url: anna1,
+      thumbnail: anna1
     },
-    author: 'Julia Carrión',
-    artistnotes: 'Realicé esta obra durante el periodo de confinamiento, dónde estaba 24h con mi hermano Marcos entre 4 paredes. Lo observé todos los días y de aquí nació la idea de este collage. Han pasado muchos años, pero sigue con mariposas en la cabeza. '
+    author: 'Pablo Lasaosa',
+    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
   },
   {
-    id: 'loose',
-    title: 'Loose',
-    src: {
-      type: 'video',
-      url: '/video/mateos-loose.mp4',
-      thumbnail: require('~/assets/art/expo-epsg/thumbnails/mateos-loose-th.png')
-    },
-    author: 'Eduardo Mateos',
-    artistnotes: 'Pieza de arte abstracto que combina 2D y 3D en un juego visual que atraviesa las etapas de una sociedad. Una comunidad que crece en grupo y pronto se convierte en un campo de batalla de posiciones opuestas que acaba inevitablemente con la consumación de uno de las fuerzas.'
-  },
-  {
-    id: 'creyendo',
-    title: 'Creyendo estar contigo',
+    id: 'anna2',
+    title: 'Anna Perry en la escuela',
     src: {
       type: 'img',
-      url: creyendo,
-      thumbnail: creyendo
+      url: anna2,
+      thumbnail: anna2
     },
-    author: 'Sofía Añón Picó',
-    description: 'Creyendo estar contigo és un cartell per a la pel·lícula In the Mood For Love.',
-    artistnotes: '“Juego conmigo a ser feliz creyendo estar contigo. Después de todo este tiempo me deberías resultar extraña, pero, en realidad, me duele sentirte lejos.” Rodeados de un ambiente cargado y asfixiante, los protagonistas desean estar juntos, se quieren, se anhelan, se sienten cerca, casi incluso rozándose; pero a su vez, una invisible distancia los separa, se sienten lejos, perdidos, solos, cada uno mirando a su lado, haciendo imposible que estén juntos.'
+    author: 'Pablo Lasaosa',
+    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
   },
   {
-    id: 'raices',
-    title: 'Raíces',
-    src: {
-      type: 'video',
-      url: '/video/socarrona-raices.mp4',
-      thumbnail: require('~/assets/art/expo-epsg/thumbnails/socarrona-raices-th.png')
-    },
-    author: 'Socarrona',
-    web: 'https://www.socarrona.com/'
-  },
-  {
-    id: 'lagrimas',
-    title: 'Entre paredes de lágrimas',
+    id: 'anna3',
+    title: 'Anna Perry en la escuela',
     src: {
       type: 'img',
-      url: lagrimas,
-      thumbnail: lagrimas
+      url: anna3,
+      thumbnail: anna3
     },
-    author: 'Carlos Montó'
+    author: 'Pablo Lasaosa',
+    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
   },
   {
-    id: 'oniria',
-    title: 'Oniria',
+    id: 'anna4',
+    title: 'Anna Perry en la escuela',
     src: {
       type: 'img',
-      url: oniria,
-      thumbnail: oniria
+      url: anna4,
+      thumbnail: anna4
     },
-    author: 'Carlos Montó'
+    author: 'Pablo Lasaosa',
+    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
   },
   {
-    id: 'polifemo',
-    title: 'Polifemo',
+    id: 'anna5',
+    title: 'Anna Perry en la escuela',
     src: {
       type: 'img',
-      url: polifemo,
-      thumbnail: polifemo
+      url: anna5,
+      thumbnail: anna5
     },
-    author: 'Carlos Montó'
+    author: 'Pablo Lasaosa',
+    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
   },
   {
-    id: 'undercover',
-    title: 'Undercover Love',
+    id: 'anna6',
+    title: 'Anna Perry en la escuela',
     src: {
-      type: 'audio',
-      url: '/audio/freq-undercover.mp3'
+      type: 'img',
+      url: anna6,
+      thumbnail: anna6
     },
-    author: 'detunedfreq',
-    artistnotes: 'Llevaba tiempo queriendo hacer un tema pop con ritmo de garage, y esta fue la oportunidad perfecta. Además, creo que usar el piano como instrumento principal del break le da un toque especial. No sé, esto no representa nada. Simplemente me mola un montón cómo suena.'
+    author: 'Pablo Lasaosa',
+    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
   },
   {
-    id: 'letsgoaway',
-    title: "Let's Go Away For A While",
+    id: 'anna7',
+    title: 'Anna Perry en la escuela',
     src: {
-      type: 'video',
-      url: '/video/polfrank-letsgo.mp4',
-      thumbnail: require('~/assets/art/expo-epsg/thumbnails/polfrank-letsgo-th.png')
+      type: 'img',
+      url: anna7,
+      thumbnail: anna7
     },
-    author: 'PolFrank',
-    artistnotes: 'Estar tancada a casa dels pares i tenint l\'equip que sol utilitzar per gravar música al meu pis, em va "obligar" a fer música d\'una manera molt més acústica i de baix pressupost del què estic acostumada. Amb només tres instruments: piano, baix elèctric i un tamboret, i gravat amb l\'àudio i la càmera del mòbil, vaig aconseguir tocar un arrangement d\'esta peça dels Beach Boys, una peça que feia temps que volia versionar i que per falta de temps, no havia pogut abans. La quarentena ha fet que veja que "menys és més" i que no cal tindre-ho tot per fer alguna cosa decent.'
+    author: 'Pablo Lasaosa',
+    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
   },
   {
-    id: 'epsg-end',
-    title: "L'art digital en quarantena",
-    description: "Moltes gràcies per visitar l'exposició inaugural del Museu Online d'Art Digital. Moltes gràcies a Sofía Añón Picó, Eduardo Mateos, Julia Carrión, Socarrona, Carlos Montó, detunedfreq i PolFrank per confiar en aquesta plataforma tan nova per a exposar el seu art. Aquesta és una exposició oberta i en proves. Si tens suggerències i/o vols participar envia un correu a moad@imcarl.es. Si t'ha agradat l'exposició, comparteix-la. Gràcies per la visita!",
+    id: 'anna8',
+    title: 'Anna Perry en la escuela',
+    src: {
+      type: 'img',
+      url: anna8,
+      thumbnail: anna8
+    },
+    author: 'Pablo Lasaosa',
+    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
+  },
+  {
+    id: 'anna9',
+    title: 'Anna Perry en la escuela',
+    src: {
+      type: 'img',
+      url: anna9,
+      thumbnail: anna9
+    },
+    author: 'Pablo Lasaosa',
+    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
+  },
+  {
+    id: 'anna10',
+    title: 'Anna Perry en la escuela',
+    src: {
+      type: 'img',
+      url: anna10,
+      thumbnail: anna10
+    },
+    author: 'Pablo Lasaosa',
+    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
+  },
+  {
+    id: 'anna11',
+    title: 'Anna Perry en la escuela',
+    src: {
+      type: 'img',
+      url: anna11,
+      thumbnail: anna11
+    },
+    author: 'Pablo Lasaosa',
+    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
+  },
+  {
+    id: 'finexpoanna',
+    title: "Fin de la biografía de Anna Ferrer",
+    description: "«Si el mundo no deja de sufrir, no dejaremos de ayudar»",
     custom: true
   }
 ]

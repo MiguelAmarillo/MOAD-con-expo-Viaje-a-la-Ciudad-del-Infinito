@@ -7,13 +7,13 @@
   </div>
     <div class="timeline">
       <div class="timeline-item" data-text="Vicente Ferrer Llega a la India">
-        <div class="timeline__content"><img class="timeline__img" src="../assets/art/expo-epsg/anon-creyendo.jpg"/>
+        <div class="timeline__content"><img class="timeline__img" src="../assets/art/expo-vicente/tuneltiempo/foto1.jpg"/>
           <h2 class="timeline__content-title">1952</h2>
           <p class="timeline__content-desc">Vicente Ferrer llega a Bombay un 13 de febrero, como misionero jesuita para culminar su formación en la orden. Trabaja con el campesinado, ayudando a excavar pozos y a crear escuelas y dispensarios médicos.</p>
         </div>
       </div>
       <div class="timeline-item" data-text="Presión de los terratenientes y expulsión del país">
-        <div class="timeline__content"><img class="timeline__img" src="../assets/art/expo-epsg/anon-creyendo.jpg"/>
+        <div class="timeline__content"><img class="timeline__img" src="../assets/art/expo-vicente/tuneltiempo/foto1.jpg"/>
           <h2 class="timeline__content-title">1968</h2>
           <p class="timeline__content-desc">El posicionamiento de Vicente Ferrer en favor de los jornaleros y sus familias supone una amenaza para los terratenientes locales que presionan para que sea expulsado del país.
             El 27 de abril del 1968 Vicente Ferrer recibe la orden de abandonar la India. Se crea el Comité de Ciudadanos por la Justicia para el padre Vicente Ferrer, que pide la revocación de la orden de expulsión.</p>

@@ -2,12 +2,29 @@
   <div class="viajeinfinito justify-content-center " >
     <div class="box" style="margin:10px position:center">
       <p>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        La Fundación Vicente Ferrer (FVF) es una Organización No Gubernamental de Desarrollo comprometida desde 1969 con el proceso de transformación de zonas rurales
+en Andhra Pradesh y Telangana, al sureste de la India.
+<br>Trabajamos con comunidades empobrecidas y con colectivos especialmente vulnerables: mujeres y personas con discapacidad. <br>Estamos presentes en más de 3.600 pueblos y apoyamos
+cerca de 3 millones de personas.
+El modelo de desarrollo de la FVF en la India coincide
+con el conjunto de propuestas globales de la ONU
+para alcanzar los Objetivos de Desarrollo Sostenible en 2030.
       </p>
     </div>
     <div class="box" style="margin:10px position:center">
       <p>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    <br><b>Viaje a la ciudad del infinito</b><br>
+<br>Edición contenidos:
+Fundación Vicente Ferrer
+<br>Fotografías gran formato:
+Pablo Lasaosa
+<br>Diseño de la exposición:
+Jana Martínez
+<br>Corrección de contenidos:
+Rosa Estrella
+<br>Fb: @FundacionVicenteFerrer
+<br>Tw: @FVicenteFerrer
+<br>Ig: @FVicenteFerrer
       </p>
       </div>
     <div class="justify-content-center">

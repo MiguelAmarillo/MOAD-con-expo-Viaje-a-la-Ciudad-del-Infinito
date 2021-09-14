@@ -18,7 +18,7 @@
         </nuxt-link>
       </div>
       <div class="col-sm-12 col-md-4 withoutPaddings">
-        <nuxt-link class="expo-link container" to="/expositions/viajeinfinito">
+        <nuxt-link class="expo-link container" to="/proyectosFundacion">
               <picture>
               <source srcset="~/assets/art/expo-vicente/Portada/proyectosmovil.jpg" media="(max-width:776px)">
               <img src="~/assets/art/expo-vicente/Portada/proyectos.jpg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">

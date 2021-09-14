@@ -1,122 +1,171 @@
-import creyendo from '~/assets/art/expo-epsg/anon-creyendo.jpg'
-import mariposas from '~/assets/art/expo-epsg/carrion-mariposas.jpg'
-import lagrimas from '~/assets/art/expo-epsg/monto-lagrimas.png'
-import oniria from '~/assets/art/expo-epsg/monto-oniria.jpg'
-import polifemo from '~/assets/art/expo-epsg/monto-polifemo.jpg'
+import educacion1 from '~/assets/art/expo-vicente/Educacion/educacion1.jpg'
+import educacion2 from '~/assets/art/expo-vicente/Educacion/educacion2.jpg'
+import educacion3 from '~/assets/art/expo-vicente/Educacion/educacion3.jpg'
+import educacion4 from '~/assets/art/expo-vicente/Educacion/educacion4.jpg'
+import educacion5 from '~/assets/art/expo-vicente/Educacion/educacion5.jpg'
+import educacion6 from '~/assets/art/expo-vicente/Educacion/educacion6.jpg'
+import educacion7 from '~/assets/art/expo-vicente/Educacion/educacion7.jpg'
+import educacion8 from '~/assets/art/expo-vicente/Educacion/educacion8.jpg'
+import educacion9 from '~/assets/art/expo-vicente/Educacion/educacion9.jpg'
+import educacion10 from '~/assets/art/expo-vicente/Educacion/educacion10.jpg'
+import educacion11 from '~/assets/art/expo-vicente/Educacion/educacion11.jpg'
+import educacion12 from '~/assets/art/expo-vicente/Educacion/educacion12.jpg'
+import educacion13 from '~/assets/art/expo-vicente/Educacion/educacion13.jpg'
 
 const educacion = [
   {
     id: 'viajeinfinito',
-    title: 'Viaje a la ciudad de la educación',
-    description: 'La exposición Viaje a la ciudad del infinito de la Fundación Vicente Ferrer nos invita a hacer un recorrido fotográfico e histórico que se inicia en el año 1952 con la llegada de Vicente a India.',
+    title: 'Educación inclusiva para combatir prejuicios',
+    description: 'Vivir entre sombras o en la oscuridad en la India conlleva muy a menudo problemas de aprendizaje y fracaso escolar. La Fundación cuenta con centros de educación para niños, niñas y jóvenes con discapacidad visual y ha sido la promotora del braille en telugu, lengua local del estado de Andhra Pradesh.',
     custom: true
   },
   {
-    id: 'epsg',
-    title: "L'art digital en quarantena",
-    description: "L'exposició inaugural del MOAD exposa art digital de companys del Campus de Gandia. Molts d'ells han realitzat aquestes peces durant la quarantena, periode en el qual els mitjans expositius tradicionals no estaven disponibles. Aquesta exposició és un recull d'obres sense res més en comú entre elles que el fet d'haver sigut produïdes en un periode únic per un grup de gent que conviu en un mateix lloc durant el curs. És una exposició, a més, oberta a tot l'alumnat que hi vulga participar.",
-    custom: true
-  },
-  {
-    id: 'mariposas',
-    title: 'Mariposas en la cabeza de marcos',
+    id: 'educacion1',
+    title: 'Educación',
     src: {
       type: 'img',
-      url: mariposas,
-      thumbnail: mariposas
+      url: educacion1,
+      thumbnail: educacion1
     },
-    author: 'Julia Carrión',
-    artistnotes: 'Realicé esta obra durante el periodo de confinamiento, dónde estaba 24h con mi hermano Marcos entre 4 paredes. Lo observé todos los días y de aquí nació la idea de este collage. Han pasado muchos años, pero sigue con mariposas en la cabeza. '
+    author: 'Pablo Lasaosa',
+    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
   },
   {
-    id: 'loose',
-    title: 'Loose',
-    src: {
-      type: 'video',
-      url: '/video/mateos-loose.mp4',
-      thumbnail: require('~/assets/art/expo-epsg/thumbnails/mateos-loose-th.png')
-    },
-    author: 'Eduardo Mateos',
-    artistnotes: 'Pieza de arte abstracto que combina 2D y 3D en un juego visual que atraviesa las etapas de una sociedad. Una comunidad que crece en grupo y pronto se convierte en un campo de batalla de posiciones opuestas que acaba inevitablemente con la consumación de uno de las fuerzas.'
-  },
-  {
-    id: 'creyendo',
-    title: 'Creyendo estar contigo',
+    id: 'educacion2',
+    title: 'Educación',
     src: {
       type: 'img',
-      url: creyendo,
-      thumbnail: creyendo
+      url: educacion2,
+      thumbnail: educacion2
     },
-    author: 'Sofía Añón Picó',
-    description: 'Creyendo estar contigo és un cartell per a la pel·lícula In the Mood For Love.',
-    artistnotes: '“Juego conmigo a ser feliz creyendo estar contigo. Después de todo este tiempo me deberías resultar extraña, pero, en realidad, me duele sentirte lejos.” Rodeados de un ambiente cargado y asfixiante, los protagonistas desean estar juntos, se quieren, se anhelan, se sienten cerca, casi incluso rozándose; pero a su vez, una invisible distancia los separa, se sienten lejos, perdidos, solos, cada uno mirando a su lado, haciendo imposible que estén juntos.'
+    author: 'Pablo Lasaosa',
+    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
   },
   {
-    id: 'raices',
-    title: 'Raíces',
-    src: {
-      type: 'video',
-      url: '/video/socarrona-raices.mp4',
-      thumbnail: require('~/assets/art/expo-epsg/thumbnails/socarrona-raices-th.png')
-    },
-    author: 'Socarrona',
-    web: 'https://www.socarrona.com/'
-  },
-  {
-    id: 'lagrimas',
-    title: 'Entre paredes de lágrimas',
+    id: 'educacion3',
+    title: 'Educación',
     src: {
       type: 'img',
-      url: lagrimas,
-      thumbnail: lagrimas
+      url: educacion3,
+      thumbnail: educacion3
     },
-    author: 'Carlos Montó'
+    author: 'Pablo Lasaosa',
+    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
   },
   {
-    id: 'oniria',
-    title: 'Oniria',
+    id: 'educacion4',
+    title: 'Educación',
     src: {
       type: 'img',
-      url: oniria,
-      thumbnail: oniria
+      url: educacion4,
+      thumbnail: educacion4
     },
-    author: 'Carlos Montó'
+    author: 'Pablo Lasaosa',
+    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
   },
   {
-    id: 'polifemo',
-    title: 'Polifemo',
+    id: 'educacion5',
+    title: 'Educación',
     src: {
       type: 'img',
-      url: polifemo,
-      thumbnail: polifemo
+      url: educacion5,
+      thumbnail: educacion5
     },
-    author: 'Carlos Montó'
+    author: 'Pablo Lasaosa',
+    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
   },
   {
-    id: 'undercover',
-    title: 'Undercover Love',
+    id: 'educacion6',
+    title: 'Educación',
     src: {
-      type: 'audio',
-      url: '/audio/freq-undercover.mp3'
+      type: 'img',
+      url: educacion6,
+      thumbnail: educacion6
     },
-    author: 'detunedfreq',
-    artistnotes: 'Llevaba tiempo queriendo hacer un tema pop con ritmo de garage, y esta fue la oportunidad perfecta. Además, creo que usar el piano como instrumento principal del break le da un toque especial. No sé, esto no representa nada. Simplemente me mola un montón cómo suena.'
+    author: 'Pablo Lasaosa',
+    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
   },
   {
-    id: 'letsgoaway',
-    title: "Let's Go Away For A While",
+    id: 'educacion7',
+    title: 'Educación',
     src: {
-      type: 'video',
-      url: '/video/polfrank-letsgo.mp4',
-      thumbnail: require('~/assets/art/expo-epsg/thumbnails/polfrank-letsgo-th.png')
+      type: 'img',
+      url: educacion7,
+      thumbnail: educacion7
     },
-    author: 'PolFrank',
-    artistnotes: 'Estar tancada a casa dels pares i tenint l\'equip que sol utilitzar per gravar música al meu pis, em va "obligar" a fer música d\'una manera molt més acústica i de baix pressupost del què estic acostumada. Amb només tres instruments: piano, baix elèctric i un tamboret, i gravat amb l\'àudio i la càmera del mòbil, vaig aconseguir tocar un arrangement d\'esta peça dels Beach Boys, una peça que feia temps que volia versionar i que per falta de temps, no havia pogut abans. La quarentena ha fet que veja que "menys és més" i que no cal tindre-ho tot per fer alguna cosa decent.'
+    author: 'Pablo Lasaosa',
+    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
   },
   {
-    id: 'epsg-end',
-    title: "L'art digital en quarantena",
-    description: "Moltes gràcies per visitar l'exposició inaugural del Museu Online d'Art Digital. Moltes gràcies a Sofía Añón Picó, Eduardo Mateos, Julia Carrión, Socarrona, Carlos Montó, detunedfreq i PolFrank per confiar en aquesta plataforma tan nova per a exposar el seu art. Aquesta és una exposició oberta i en proves. Si tens suggerències i/o vols participar envia un correu a moad@imcarl.es. Si t'ha agradat l'exposició, comparteix-la. Gràcies per la visita!",
+    id: 'educacion8',
+    title: 'Educación',
+    src: {
+      type: 'img',
+      url: educacion8,
+      thumbnail: educacion8
+    },
+    author: 'Pablo Lasaosa',
+    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+  },
+  {
+    id: 'educacion9',
+    title: 'Educación',
+    src: {
+      type: 'img',
+      url: educacion9,
+      thumbnail: educacion9
+    },
+    author: 'Pablo Lasaosa',
+    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+  },
+  {
+    id: 'educacion10',
+    title: 'Educación',
+    src: {
+      type: 'img',
+      url: educacion10,
+      thumbnail: educacion10
+    },
+    author: 'Pablo Lasaosa',
+    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+  },
+  {
+    id: 'educacion11',
+    title: 'Educación',
+    src: {
+      type: 'img',
+      url: educacion11,
+      thumbnail: educacion11
+    },
+    author: 'Pablo Lasaosa',
+    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+  },
+  {
+    id: 'educacion12',
+    title: 'Educación',
+    src: {
+      type: 'img',
+      url: educacion12,
+      thumbnail: educacion12
+    },
+    author: 'Pablo Lasaosa',
+    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+  },
+  {
+    id: 'educacion13',
+    title: 'Educación',
+    src: {
+      type: 'img',
+      url: educacion13,
+      thumbnail: educacion13
+    },
+    author: 'Pablo Lasaosa',
+    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+  },
+  {
+    id: 'finexpoeducacion',
+    title: "Fin de la exposición sobre el proyecto de educacion",
+    description: "«La educación es el primer paso. El medio necesario para transformar la sociedad y liberarla» -Vicente Ferrer",
     custom: true
   }
 ]

@@ -22,7 +22,7 @@ const ecologia = [
       thumbnail: ecologia1
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Aproximadamente el 70 % de las familias de la región depende exclusivamente de la agricultura como primera fuente de ingresos. Cuidar e hidratar la tierra se convierte en un reto imprescindible para favorecer la vida de estas familias.'
+    description: 'Aproximadamente el 70 % de las familias de la región depende exclusivamente de la agricultura como primera fuente de ingresos.'
   },
   {
     id: 'ecologia2',
@@ -33,7 +33,7 @@ const ecologia = [
       thumbnail: ecologia2
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Aproximadamente el 70 % de las familias de la región depende exclusivamente de la agricultura como primera fuente de ingresos. Cuidar e hidratar la tierra se convierte en un reto imprescindible para favorecer la vida de estas familias.'
+    description: 'Cuidar e hidratar la tierra se convierte en un reto imprescindible para favorecer la vida de estas familias.'
   },
   {
     id: 'ecologia3',
@@ -44,7 +44,7 @@ const ecologia = [
       thumbnail: ecologia3
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Aproximadamente el 70 % de las familias de la región depende exclusivamente de la agricultura como primera fuente de ingresos. Cuidar e hidratar la tierra se convierte en un reto imprescindible para favorecer la vida de estas familias.'
+    description: 'Las sequías y las inundaciones que se producen con los monzones influyen negativamente en las cosechas y en la calidad del suelo.'
   },
   {
     id: 'ecologia4',
@@ -55,7 +55,7 @@ const ecologia = [
       thumbnail: ecologia4
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Aproximadamente el 70 % de las familias de la región depende exclusivamente de la agricultura como primera fuente de ingresos. Cuidar e hidratar la tierra se convierte en un reto imprescindible para favorecer la vida de estas familias.'
+    description: 'Para luchar contra la sequía, la Fundación ha construido estructuras hídricas, ha instalado paneles solares que hacen posible el riego por goteo y ha plantado más de un millón y medio de árboles frutales.'
   },
   {
     id: 'ecologia5',
@@ -66,7 +66,7 @@ const ecologia = [
       thumbnail: ecologia5
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Aproximadamente el 70 % de las familias de la región depende exclusivamente de la agricultura como primera fuente de ingresos. Cuidar e hidratar la tierra se convierte en un reto imprescindible para favorecer la vida de estas familias.'
+    description: 'Si hay agua, la actividad agrícola es posible y la emigración innecesaria.'
   },
   {
     id: 'ecologia6',
@@ -77,7 +77,7 @@ const ecologia = [
       thumbnail: ecologia6
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Aproximadamente el 70 % de las familias de la región depende exclusivamente de la agricultura como primera fuente de ingresos. Cuidar e hidratar la tierra se convierte en un reto imprescindible para favorecer la vida de estas familias.'
+    description: 'La distribución de animales también reduce las migraciones al garantizar la estabilidad económica de sus propietarios.'
   },
   {
     id: 'ecologia7',
@@ -88,7 +88,7 @@ const ecologia = [
       thumbnail: ecologia7
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Aproximadamente el 70 % de las familias de la región depende exclusivamente de la agricultura como primera fuente de ingresos. Cuidar e hidratar la tierra se convierte en un reto imprescindible para favorecer la vida de estas familias.'
+    description: 'Las vacas y búfalas proporcionan ingresos regulares a las familias y les aseguran en torno a 15 litros de leche diaria para su comercialización.'
   },
   {
     id: 'finexpoecologia',

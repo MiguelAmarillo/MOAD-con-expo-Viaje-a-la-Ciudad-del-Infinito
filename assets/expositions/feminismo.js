@@ -22,10 +22,10 @@ const feminismo = [
       thumbnail: feminismo1
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Las mujeres rurales del sur de la India son las encargadas de los cuidados y de mantener a sus familias, pero continúan dependiendo económicamente de sus maridos.'
+    description: 'Las mujeres rurales del sur de la India son las encargadas de los cuidados y de mantener a sus familias, pero continúan dependiendo económicamente de sus maridos.'
   },
   {
-    id: 'feminismo12',
+    id: 'feminismo2',
     title: 'Feminismo',
     src: {
       type: 'img',
@@ -33,7 +33,7 @@ const feminismo = [
       thumbnail: feminismo2
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Las mujeres rurales del sur de la India son las encargadas de los cuidados y de mantener a sus familias, pero continúan dependiendo económicamente de sus maridos.'
+    description: 'La Fundación trabaja para incrementar el nivel socioeconómico de las mujeres y garantizar la igualdad de oportunidades en todos los ámbitos donde sufren discriminación.'
   },
   {
     id: 'feminismo3',
@@ -44,7 +44,7 @@ const feminismo = [
       thumbnail: feminismo3
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Las mujeres rurales del sur de la India son las encargadas de los cuidados y de mantener a sus familias, pero continúan dependiendo económicamente de sus maridos.'
+    description: 'A pesar de que la legislación india reconoce la igualdad y la no discriminación de las mujeres, la fuerza que representan carece del reconocimiento social y económico que merecen.'
   },
   {
     id: 'feminismo4',
@@ -55,7 +55,7 @@ const feminismo = [
       thumbnail: feminismo4
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Las mujeres rurales del sur de la India son las encargadas de los cuidados y de mantener a sus familias, pero continúan dependiendo económicamente de sus maridos.'
+    description: 'La Fundación incentiva la creación de asociaciones de mujeres como espacios de empoderamiento individual y colectivo y de fortalecimiento de liderazgos y de sororidad entre mujeres.'
   },
   {
     id: 'feminismo5',
@@ -66,7 +66,7 @@ const feminismo = [
       thumbnail: feminismo5
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Las mujeres rurales del sur de la India son las encargadas de los cuidados y de mantener a sus familias, pero continúan dependiendo económicamente de sus maridos.'
+    description: 'La Fundación atiende miles de partos al año a través de la red hospitalaria establecida en el distrito de Anantapur.'
   },
   {
     id: 'feminismo6',
@@ -77,7 +77,7 @@ const feminismo = [
       thumbnail: feminismo6
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Las mujeres rurales del sur de la India son las encargadas de los cuidados y de mantener a sus familias, pero continúan dependiendo económicamente de sus maridos.'
+    description: 'Las mujeres con diversidad funcional son extremadamente vulnerables y sufren una gran discriminación.'
   },
   {
     id: 'feminismo7',
@@ -88,7 +88,7 @@ const feminismo = [
       thumbnail: feminismo7
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Las mujeres rurales del sur de la India son las encargadas de los cuidados y de mantener a sus familias, pero continúan dependiendo económicamente de sus maridos.'
+    description: 'La Fundación cuenta con talleres-residencia donde reciben formación en una actividad artesanal y educación básica, alojamiento, seguimiento médico y un empleo estable.'
   },
   {
     id: 'finexpofeminismo',

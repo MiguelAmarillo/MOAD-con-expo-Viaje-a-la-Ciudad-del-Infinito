@@ -28,7 +28,7 @@ const educacion = [
       thumbnail: educacion1
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+    description: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia. Las niñas y niños con discapacidad visual son un colectivo especialmente vulnerable con unas necesidades muy concretas.'
   },
   {
     id: 'educacion2',
@@ -39,7 +39,7 @@ const educacion = [
       thumbnail: educacion2
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+    description: 'Para frenar la exclusión social y mejorar sus condiciones de vida, la Fundación cuenta con cinco escuelas inclusivas a las que acuden niñas y niños con y sin discapacidad.'
   },
   {
     id: 'educacion3',
@@ -50,7 +50,7 @@ const educacion = [
       thumbnail: educacion3
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+    description: 'Las escuelas inclusivas están adaptadas a sus limitaciones físicas y sensoriales y promueven la interacción y el compañerismo entre el alumnado.'
   },
   {
     id: 'educacion4',
@@ -61,7 +61,7 @@ const educacion = [
       thumbnail: educacion4
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+    description: 'La FVF cuenta con cuatro escuelas y un instituto para niñas y niños con discapacidad auditiva en el distrito de Anantapur. En el colegio aprenden lengua de signos y ganan autoconfianza.'
   },
   {
     id: 'educacion5',
@@ -72,7 +72,7 @@ const educacion = [
       thumbnail: educacion5
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+    description: 'Tener una lengua establecida y sistematizada, les permite expresarse y les empodera como colectivo. Además, facilita que las demás personas de su entorno hagan un esfuerzo por comunicarse con ellos.'
   },
   {
     id: 'educacion6',
@@ -83,7 +83,7 @@ const educacion = [
       thumbnail: educacion6
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+    description: 'Niñas y niños empiezan la jornada con una sesión de yoga para tener energía y activar su cuerpo y su mente.'
   },
   {
     id: 'educacion7',
@@ -94,7 +94,7 @@ const educacion = [
       thumbnail: educacion7
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+    description: 'La Fundación empezó a implementar un programa de educación física en todos los centros de personas con discapacidad con el fin de favorecer su desarrollo físico, psíquico, emocional y social.'
   },
   {
     id: 'educacion8',
@@ -105,7 +105,7 @@ const educacion = [
       thumbnail: educacion8
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+    description: 'Las alumnas con discapacidad auditiva participan en un programa cultural donde aprenden bailes populares, cambiando de movimiento al ritmo de las luces de colores que les indican hacia qué lado deben girar. Una práctica con la que mejoran su integración y autoestima.'
   },
   {
     id: 'educacion9',
@@ -116,7 +116,7 @@ const educacion = [
       thumbnail: educacion9
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+    description: 'La Fundación promueve dinámicas de juegos motrices con circuitos de movimiento y musicoterapia, ejercicios de relajación y estiramientos para niñas y niños con discapacidad intelectual.'
   },
   {
     id: 'educacion10',
@@ -127,7 +127,7 @@ const educacion = [
       thumbnail: educacion10
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+    description: 'Todas estas actividades activan las dos áreas motoras del cerebro, estimulan la memoria y la capacidad de concentración y fortalecen los músculos de los estudiantes.'
   },
   {
     id: 'educacion11',
@@ -138,7 +138,7 @@ const educacion = [
       thumbnail: educacion11
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+    description: 'La discapacidad intelectual está relacionada con la desnutrición y la pobreza que sufre la madre durante el embarazo.'
   },
   {
     id: 'educacion12',
@@ -149,7 +149,7 @@ const educacion = [
       thumbnail: educacion12
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+    description: 'A los centros de la Fundación acuden niñas y niños con retrasos en el desarrollo, síndrome de Down o autismo. Aquí reciben atención temprana para favorecer su desarrollo físico, intelectual y social y potenciar al máximo sus capacidades.'
   },
   {
     id: 'educacion13',
@@ -160,7 +160,7 @@ const educacion = [
       thumbnail: educacion13
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'El albinismo puede causar problemas de visión o ceguera funcional, estrabismo o fotofobia.'
+    description: 'El objetivo de los centros es reforzar su autonomía y facilitar así su inserción en la comunidad, una vez regresen a sus casas.'
   },
   {
     id: 'finexpoeducacion',

@@ -50,7 +50,7 @@ const vicenteFerrer = [
       thumbnail: vicente3
     },
     author: 'Pablo Lasaosa',
-    description: 'Debido a la presión ejercida por los terratenientes locales por defender los derechos de los campesinos, en 1968 fue expulsado de la India. Al año siguiente, la entonces primera ministra Indira Gandhi permitió su regreso.'
+    description: 'Debido a la presión ejercida por los terratenientes locales por defender los derechos de los campesinos, en 1968 fue expulsado de la India.'
   },
   {
     id: 'vicente4',
@@ -61,7 +61,7 @@ const vicenteFerrer = [
       thumbnail: vicente4
     },
     author: 'Pablo Lasaosa',
-    description: 'En 1969 Vicente Ferrer y Anne Perry, después conocida como Anna Ferrer, fundaron junto con dos voluntarios Rural Development Trust, la matriz de la Fundación Vicente Ferrer en la India.'
+    description: 'Al año siguiente, la entonces primera ministra Indira Gandhi permitió su regreso.'
   },
   {
     id: 'vicente5',
@@ -72,7 +72,7 @@ const vicenteFerrer = [
       thumbnail: vicente5
     },
     author: 'Pablo Lasaosa',
-    description: 'Se establecieron en Anantapur, un distrito castigado por la sequía, donde solo unos pocos controlaban la explotación de las tierras y donde millones de dalits y de otras castas desfavorecidas vivían en la pobreza más extrema.'
+    description: 'En 1969 Vicente Ferrer y Anne Perry, después conocida como Anna Ferrer, fundaron junto con dos voluntarios Rural Development Trust, la matriz de la Fundación Vicente Ferrer en la India.'
   },
   {
     id: 'vicente6',
@@ -83,7 +83,7 @@ const vicenteFerrer = [
       thumbnail: vicente6
     },
     author: 'Pablo Lasaosa',
-    description: 'Vicente Ferrer fue un idealista orientado a la acción, un humanista y un visionario.'
+    description: 'Se establecieron en Anantapur, un distrito castigado por la sequía, donde solo unos pocos controlaban la explotación de las tierras y donde millones de dalits y de otras castas desfavorecidas vivían en la pobreza más extrema.'
   },
   {
     id: 'vicente7',
@@ -94,7 +94,7 @@ const vicenteFerrer = [
       thumbnail: vicente7
     },
     author: 'Pablo Lasaosa',
-    description: 'En 1970, después de salir de la Orden de los Jesuitas, contrajo matrimonio con Anna Ferrer, una mujer ante todo pragmática y con una gran capacidad para la negociación, con la que tuvo tres hijos: Tara, Moncho y Yamuna.'
+    description: 'Vicente Ferrer fue un idealista orientado a la acción, un humanista y un visionario.'
   },
   {
     id: 'vicente8',
@@ -105,7 +105,7 @@ const vicenteFerrer = [
       thumbnail: vicente8
     },
     author: 'Pablo Lasaosa',
-    description: 'Vicente y Anna consolidaron un tándem indivisible para emprender el gran proyecto que es hoy la Fundación Vicente Ferrer, la cual ha posibilitado que casi tres millones de personas en Anantapur hayan salido de la pobreza extrema. '
+    description: 'En 1970, después de salir de la Orden de los Jesuitas, contrajo matrimonio con Anna Ferrer, una mujer ante todo pragmática y con una gran capacidad para la negociación, con la que tuvo tres hijos: Tara, Moncho y Yamuna.'
   },
   {
     id: 'vicente9',
@@ -116,7 +116,7 @@ const vicenteFerrer = [
       thumbnail: vicente9
     },
     author: 'Pablo Lasaosa',
-    description: 'Imagen de Vicente Ferrer sobre un fondo azul '
+    description: 'Vicente y Anna consolidaron un tándem indivisible para emprender el gran proyecto que es hoy la Fundación Vicente Ferrer, la cual ha posibilitado que casi tres millones de personas en Anantapur hayan salido de la pobreza extrema.'
   },
   {
     id: 'vicente10',
@@ -127,7 +127,7 @@ const vicenteFerrer = [
       thumbnail: vicente10
     },
     author: 'Pablo Lasaosa',
-    description: 'Imagen de Vicente Ferrer sobre un fondo azul '
+    description: 'Su trabajo por el progreso de las zonas rurales de la India, llevó a Vicente a obtener el Premio Príncipe de Asturias de la Concordia en 1998 e incluso a ser candidato al Premio Nobel de la Paz en 2010.'
   },
   {
     id: 'vicente11',
@@ -138,7 +138,7 @@ const vicenteFerrer = [
       thumbnail: vicente11
     },
     author: 'Pablo Lasaosa',
-    description: 'Imagen de Vicente Ferrer sobre un fondo azul '
+    description: ''
   },
   {
     id: 'vicente12',
@@ -149,7 +149,7 @@ const vicenteFerrer = [
       thumbnail: vicente12
     },
     author: 'Pablo Lasaosa',
-    description: 'Su trabajo por el progreso de las zonas rurales de la India, llevó a Vicente a obtener el Premio Príncipe de Asturias de la Concordia en 1998 e incluso a ser candidato al Premio Nobel de la Paz en 2010.'
+    description: ''
   },
   {
     id: 'vicente13',

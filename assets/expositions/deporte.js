@@ -4,19 +4,19 @@ const deporte = [
   {
     id: 'viajeinfinito',
     title: 'Deporte para la cohesión social',
-    description: 'El deporte es una importante herramienta pedagógica para el desarrollo de la infancia y la juventud que contribuye a la integración de colectivos de distintas castas, géneros y capacidades. La práctica del judo promueve la igualdad de género, ya que chicos y chicas entrenan juntos y compiten de forma mixta en función del peso, no de la edad o el sexo. Navayashri es una joven que además de judo también practica hockey.',
+    description: 'El deporte es una importante herramienta pedagógica para el desarrollo de la infancia y la juventud que contribuye a la integración de colectivos de distintas castas, géneros y capacidades.',
     custom: true
   },
   {
     id: 'deporte1',
-    title: 'Deporte',
+    title: 'Navayashri con su toga de judo',
     src: {
       type: 'img',
       url: deporte1,
       thumbnail: deporte1
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Las mujeres rurales del sur de la India son las encargadas de los cuidados y de mantener a sus familias, pero continúan dependiendo económicamente de sus maridos.'
+    description: 'La práctica del judo promueve la igualdad de género, ya que chicos y chicas entrenan juntos y compiten de forma mixta en función del peso, no de la edad o el sexo. Navayashri es una joven que además de judo también practica hockey.'
   },
   {
     id: 'finexpodeporte',

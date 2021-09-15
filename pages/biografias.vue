@@ -3,12 +3,18 @@
     <div class="row justify-content-center">
       <div class="col-sm-12 col-md-4 withoutPaddings">
         <nuxt-link class="expo-link container" to="/expositions/vicenteFerrer">
+              <picture>
+              <source srcset="~/assets/art/expo-vicente/Biografias/vicentemovil.jpg" media="(max-width:776px)">
               <img src="~/assets/art/expo-vicente/Biografias/vicente.jpg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              </picture>
         </nuxt-link>
       </div>
       <div class="col-sm-12 col-md-4 withoutPaddings">
         <nuxt-link class="expo-link container" to="/expositions/annaFerrer">
+              <picture>
+              <source srcset="~/assets/art/expo-vicente/Biografias/annamovil.jpg" media="(max-width:776px)">
               <img src="~/assets/art/expo-vicente/Biografias/anna.jpg" class="img-fluid fill" style="width: 100%; height: 100%;" alt="Responsive image">
+              </picture>
         </nuxt-link>
       </div>
     </div>

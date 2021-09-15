@@ -26,7 +26,7 @@ const anaFerrer = [
       thumbnail: anna1
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
+    description: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
   },
   {
     id: 'anna2',
@@ -37,7 +37,7 @@ const anaFerrer = [
       thumbnail: anna2
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
+    description: 'Tras la entrevista, Anna se sintió identificada con su causa y se sumó como voluntaria del Comité de Ciudadanos por la Justicia para Vicente Ferrer.'
   },
   {
     id: 'anna3',
@@ -48,7 +48,7 @@ const anaFerrer = [
       thumbnail: anna3
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
+    description: 'Cuando Vicente Ferrer pudo volver a la India, Anna viajó junto a él y otros dos voluntarios a Anantapur, y se instalaron en Emma Bungalow, una pequeña vivienda ubicada donde actualmente se encuentra el campus de la Fundación.'
   },
   {
     id: 'anna4',
@@ -59,7 +59,7 @@ const anaFerrer = [
       thumbnail: anna4
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
+    description: 'Anna Ferrer estuvo al frente del Programa de Salud a lo largo de diecisiete años y puso en marcha el Programa de Personas con Discapacidad.'
   },
   {
     id: 'anna5',
@@ -70,7 +70,7 @@ const anaFerrer = [
       thumbnail: anna5
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
+    description: 'Convencida de que las mujeres tienen que liderar los cambios necesarios para erradicar la pobreza en la India rural, ideó la creación de asociaciones de mujeres.'
   },
   {
     id: 'anna6',
@@ -81,7 +81,7 @@ const anaFerrer = [
       thumbnail: anna6
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
+    description: 'En marzo de 2015, el ministro jefe de Andhra Pradesh, Chandrababu Naidu, le entregó el premio Hamsa, el más prestigioso del estado «por el excepcional trabajo en beneficio de la población rural».'
   },
   {
     id: 'anna7',
@@ -92,7 +92,7 @@ const anaFerrer = [
       thumbnail: anna7
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
+    description: 'La Fundación Vicente Ferrer es hoy lo que es gracias al compromiso entusiasta, la capacidad organizativa, la racionalidad, la constancia, la integridad y el sentido común de Anna Ferrer.'
   },
   {
     id: 'anna8',
@@ -103,7 +103,7 @@ const anaFerrer = [
       thumbnail: anna8
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
+    description: 'La que fue la impulsora del proyecto de la Fundación, junto a Vicente Ferrer, es actualmente presidenta y directora ejecutiva de la organización en la India.'
   },
   {
     id: 'anna9',
@@ -114,7 +114,6 @@ const anaFerrer = [
       thumbnail: anna9
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
   },
   {
     id: 'anna10',
@@ -125,7 +124,6 @@ const anaFerrer = [
       thumbnail: anna10
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
   },
   {
     id: 'anna11',
@@ -136,7 +134,6 @@ const anaFerrer = [
       thumbnail: anna11
     },
     author: 'Pablo Lasaosa',
-    artistnotes: 'Anne Perry llegó con solo diecisiete años a Bombay en 1965 y como reportera del semanario Current entrevistó, en 1968, a Vicente Ferrer cuando el misionero recibió la orden de expulsión del gobierno de la India.'
   },
   {
     id: 'finexpoanna',

@@ -227,7 +227,7 @@ export default {
   transition: 0.4s;
   padding: 0 10px;
   box-sizing: border-box;
-  font-family: "Pathway Gothic One", sans-serif;
+  font-family: Manrope;
   color: #fff;
 }
 .timeline__content-desc {
@@ -235,7 +235,7 @@ export default {
   font-size: 15px;
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.7);
-  font-family: Cardo;
+  font-family: Manrope;
   font-weight: normal;
   line-height: 25px;
 }
